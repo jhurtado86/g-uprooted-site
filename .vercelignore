@@ -1,0 +1,10 @@
+# Local dev tooling & artifacts — not part of the static site
+node_modules
+temporary screenshots
+serve.mjs
+screenshot.mjs
+package.json
+package-lock.json
+*.md
+.claude
+.DS_Store
