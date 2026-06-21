@@ -13,7 +13,7 @@ Business name: G-Uprooted Tree Services (also referred to as G-Uprooted)
 Industry: Tree service — trimming, removal, palm tree care, landscaping/shrub maintenance
 Owner: Emilio Gonzalez
 Physical address: None — service-area business, no storefront/yard address used publicly
-Phone/Text: 956-536-2384
+Phone/Text: 956-539-3985
 Email: ECJ@G-UPROOTED.COM
 Domain: [NEEDS INPUT]
 Founded: [NEEDS INPUT] — 10+ years of experience
