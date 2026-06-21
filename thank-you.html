@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thank You | Your Business Name Home Services in [City], TX</title>
-  <meta name="description" content="Thank you for contacting Your Business Name. Our team will be in touch shortly. Need help now in [City]? Call (555) 000-0000." />
+  <title>Thank You | G-Uprooted Tree Services</title>
+  <meta name="description" content="Thanks for contacting G-Uprooted Tree Services. We'll call shortly to confirm your free estimate. Need service now in the Rio Grande Valley? Call 956-536-2384." />
   <meta name="robots" content="noindex, nofollow" />
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -12,243 +12,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            glass:  { DEFAULT: '#E63946', 400: '#E04250', 300: '#EC5A66', 200: '#F2C9CD', 100: '#FCEEEF' },
-            ink:    { DEFAULT: '#1A1A2E', 800: '#1A1A2E', 700: '#26263E', 600: '#2E2E46' },
-            steel:  { DEFAULT: '#26263E', 700: '#2E2E46', 600: '#34344E' },
-            ember:  { DEFAULT: '#E63946', 400: '#D62F3D', 300: '#F2737D' },
-            slate:  { light: '#5B5B68', muted: '#8E8E9C' },
-          },
-          fontFamily: {
-            display: ['Barlow', 'sans-serif'],
-            body:    ['Nunito', 'sans-serif'],
-          },
-          boxShadow: {
-            'card':    '0 2px 8px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04)',
-            'card-lg': '0 8px 32px rgba(0,0,0,0.10), 0 2px 6px rgba(0,0,0,0.05)',
-            'glow':    '0 0 28px rgba(26,26,46,0.16)',
-            'cta':     '0 4px 20px rgba(230,57,70,0.30)',
-          },
-          letterSpacing: { tight: '-0.03em' },
-          lineHeight:    { body: '1.7' },
-        },
-      },
-    };
-  </script>
+  <script src="/assets/brand-config.js"></script>
+
+  <link rel="stylesheet" href="/assets/brand.css" />
 
   <style>
-    /* PROVISIONAL COLORS — replace when client brand colors confirmed */
-    :root {
-      --glass-primary: #E63946;
-      --glass-hover:   #D62F3D;
-      --glass-light:   #EC5A66;
-      --glass-pale:    #F2C9CD;
-      --glass-ultra:   #FCEEEF;
-      --ink:           #1A1A2E;
-      --ink-body:      #1A1A2E;
-      --ember:         #E63946;
-      --ember-hover:   #D62F3D;
-      --slate:         #5B5B68;
-      --slate-muted:   #8E8E9C;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Nunito', sans-serif; background: #fff; color: var(--ink-body); }
-    h1,h2,h3,h4 { font-family: 'Barlow', sans-serif; }
-
-    .dark-section { background: #1A1A2E; }
-    .dark-section .text-white        { color: #fff !important; }
-    .dark-section .text-slate-light  { color: #9C9CAC !important; }
-
-    .divider {
-      height: 1px;
-      background: linear-gradient(90deg, transparent 0%, rgba(26,26,46,0.12) 30%, rgba(26,26,46,0.12) 70%, transparent 100%);
-    }
-
-    /* ── Nav wordmark ── */
-    .nav-wordmark {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 800; font-size: 24px;
-      letter-spacing: -0.02em; color: #fff; line-height: 1;
-      transition: color 0.25s cubic-bezier(0.4,0,0.2,1);
-    }
-    .nav-wordmark .plus { color: var(--ember); }
-    #navbar.scrolled .nav-wordmark { color: var(--ink-body); }
-
-    .footer-wordmark {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 800; font-size: 28px;
-      letter-spacing: -0.02em; color: #fff; line-height: 1;
-    }
-    .footer-wordmark .plus { color: var(--ember); }
-
-    /* ── Nav ── */
-    #navbar {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 50;
-      background: transparent;
-      border-bottom: 1px solid transparent;
-      transition: background 0.40s cubic-bezier(0.4,0,0.2,1),
-                  border-color 0.40s cubic-bezier(0.4,0,0.2,1),
-                  box-shadow 0.40s cubic-bezier(0.4,0,0.2,1);
-    }
-    #navbar .text-slate-light          { color: rgba(255,255,255,0.68) !important; }
-    #navbar .hover\:text-white:hover   { color: rgba(255,255,255,1) !important; }
-    #navbar #hamburger                 { color: rgba(255,255,255,0.80) !important; border-color: rgba(255,255,255,0.18) !important; }
-    #mobile-menu                       { background: rgba(26,26,46,0.96); backdrop-filter: blur(18px); }
-    #mobile-menu a.mobile-nav-link     { color: rgba(255,255,255,0.68) !important; }
-    #mobile-menu a.mobile-nav-link:hover { color: rgba(255,255,255,1) !important; background: rgba(255,255,255,0.06) !important; }
-    #mobile-menu                       { border-top-color: rgba(255,255,255,0.08) !important; }
-
-    #navbar.scrolled {
-      background: rgba(255,255,255,0.72);
-      backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px);
-      border-bottom-color: rgba(26,26,46,0.07);
-      box-shadow: 0 1px 24px rgba(0,0,0,0.06);
-    }
-    #navbar.scrolled .text-slate-light         { color: var(--slate) !important; }
-    #navbar.scrolled .hover\:text-white:hover  { color: var(--ink-body) !important; }
-    #navbar.scrolled #hamburger                { color: var(--ink-body) !important; border-color: rgba(26,26,46,0.16) !important; }
-    #navbar.scrolled #mobile-menu              { background: #fff; }
-    #navbar.scrolled #mobile-menu a.mobile-nav-link       { color: var(--slate) !important; }
-    #navbar.scrolled #mobile-menu a.mobile-nav-link:hover { color: var(--ink-body) !important; background: rgba(26,26,46,0.04) !important; }
-    #navbar.scrolled #mobile-menu { border-top-color: rgba(26,26,46,0.08) !important; }
-
-    /* ── Nav animated underline ── */
-    .nav-link { position: relative; }
-    .nav-link::after {
-      content: ''; position: absolute; bottom: -2px; left: 0;
-      width: 0; height: 2px; background: var(--glass-primary);
-      transition: width 0.25s cubic-bezier(0.4,0,0.2,1);
-    }
-    .nav-link:hover::after { width: 100%; }
-
-    /* ── Services dropdown (desktop) ── */
-    .nav-dropdown { position: relative; }
-    .nav-dropdown-trigger { display: inline-flex; align-items: center; gap: 5px; }
-    .nav-dropdown-trigger .nav-chev { transition: transform 0.25s cubic-bezier(0.4,0,0.2,1); }
-    .nav-dropdown:hover .nav-chev,
-    .nav-dropdown:focus-within .nav-chev { transform: rotate(180deg); }
-    .nav-dropdown-menu {
-      position: absolute; top: 100%; left: 50%;
-      margin-top: 14px; min-width: 252px; padding: 8px;
-      background: rgba(26,26,46,0.97); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
-      border: 1px solid rgba(255,255,255,0.08); border-radius: 14px;
-      box-shadow: 0 18px 48px rgba(0,0,0,0.34), 0 2px 8px rgba(0,0,0,0.18);
-      opacity: 0; visibility: hidden; pointer-events: none;
-      transform: translateX(-50%) translateY(8px);
-      transition: opacity 0.22s cubic-bezier(0.4,0,0.2,1), transform 0.22s cubic-bezier(0.4,0,0.2,1);
-      z-index: 60;
-    }
-    .nav-dropdown-menu::before { content: ''; position: absolute; top: -14px; left: 0; right: 0; height: 14px; }
-    .nav-dropdown:hover .nav-dropdown-menu,
-    .nav-dropdown:focus-within .nav-dropdown-menu {
-      opacity: 1; visibility: visible; pointer-events: auto;
-      transform: translateX(-50%) translateY(0);
-    }
-    .nav-dropdown-menu a {
-      display: block; padding: 10px 14px; border-radius: 9px;
-      font-size: 14px; font-weight: 500; line-height: 1.3; white-space: nowrap;
-      color: rgba(255,255,255,0.70);
-      transition: color 0.15s cubic-bezier(0.4,0,0.2,1), background 0.15s cubic-bezier(0.4,0,0.2,1);
-    }
-    .nav-dropdown-menu a:hover { color: #fff; background: rgba(255,255,255,0.07); }
-    #navbar.scrolled .nav-dropdown-menu {
-      background: rgba(255,255,255,0.98); border-color: rgba(26,26,46,0.08);
-      box-shadow: 0 18px 48px rgba(26,26,46,0.14), 0 2px 8px rgba(26,26,46,0.06);
-    }
-    #navbar.scrolled .nav-dropdown-menu a { color: var(--slate); }
-    #navbar.scrolled .nav-dropdown-menu a:hover { color: var(--ink-body); background: rgba(26,26,46,0.04); }
-
-    /* ── Services dropdown (mobile) ── */
-    .mobile-services-toggle {
-      display: flex; align-items: center; justify-content: space-between; width: 100%;
-      background: none; border: none; cursor: pointer; font: inherit; text-align: left;
-      color: rgba(255,255,255,0.68);
-      transition: color 0.15s cubic-bezier(0.4,0,0.2,1), background 0.15s cubic-bezier(0.4,0,0.2,1);
-    }
-    .mobile-services-toggle:hover { color: #fff; background: rgba(255,255,255,0.06); }
-    .mobile-services-toggle .nav-chev { transition: transform 0.25s cubic-bezier(0.4,0,0.2,1); flex-shrink: 0; }
-    .mobile-services-toggle[aria-expanded="true"] .nav-chev { transform: rotate(180deg); }
-    .mobile-services-submenu {
-      display: none; flex-direction: column; gap: 2px;
-      margin: 2px 0 2px 14px; padding-left: 10px;
-      border-left: 1px solid rgba(255,255,255,0.12);
-    }
-    .mobile-services-submenu.open { display: flex; }
-    .mobile-services-submenu a {
-      padding: 9px 12px; border-radius: 8px; font-size: 14px; font-weight: 500;
-      color: rgba(255,255,255,0.58);
-      transition: color 0.15s cubic-bezier(0.4,0,0.2,1), background 0.15s cubic-bezier(0.4,0,0.2,1);
-    }
-    .mobile-services-submenu a:hover { color: #fff; background: rgba(255,255,255,0.06); }
-    #navbar.scrolled .mobile-services-toggle { color: var(--slate); }
-    #navbar.scrolled .mobile-services-toggle:hover { color: var(--ink-body); background: rgba(26,26,46,0.04); }
-    #navbar.scrolled .mobile-services-submenu { border-left-color: rgba(26,26,46,0.10); }
-    #navbar.scrolled .mobile-services-submenu a { color: var(--slate); }
-    #navbar.scrolled .mobile-services-submenu a:hover { color: var(--ink-body); background: rgba(26,26,46,0.04); }
-
-    /* ── Hero — real photo background ── */
-    .hero-bg { background: #1A1A2E; }
-    .hero-vignette {
-      background: radial-gradient(ellipse 120% 100% at 50% 50%, transparent 35%, rgba(0,0,0,0.50) 100%);
-      pointer-events: none;
-    }
-
-    /* ── Buttons ── */
-    .btn-primary {
-      background: var(--ember); color: #fff;
-      font-weight: 700; border-radius: 8px; padding: 14px 28px; font-size: 15px;
-      letter-spacing: 0.01em;
-      box-shadow: 0 4px 18px rgba(230,57,70,0.30);
-      transition: transform 0.18s cubic-bezier(0.4,0,0.2,1),
-                  box-shadow 0.18s cubic-bezier(0.4,0,0.2,1),
-                  background 0.18s cubic-bezier(0.4,0,0.2,1);
-      display: inline-flex; align-items: center; gap: 8px;
-    }
-    .btn-primary:hover  { background: var(--ember-hover); transform: translateY(-2px); box-shadow: 0 8px 26px rgba(230,57,70,0.38); }
-    .btn-primary:active { transform: translateY(0); box-shadow: 0 2px 10px rgba(230,57,70,0.22); }
-    .btn-primary:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; }
-
-    .trust-badge {
-      background: rgba(230,57,70,0.12); border: 1px solid rgba(230,57,70,0.28);
-      border-radius: 100px; padding: 6px 14px; font-size: 13px; font-weight: 500;
-      color: var(--glass-pale); display: inline-flex; align-items: center; gap: 6px;
-    }
-
-    /* ── Phone pulse ── */
-    .phone-pulse { animation: pulse-ring 2.5s cubic-bezier(0.4,0,0.6,1) infinite; }
-    @keyframes pulse-ring {
-      0%, 100% { box-shadow: 0 0 0 0 rgba(230,57,70,0.4); }
-      50%       { box-shadow: 0 0 0 10px rgba(230,57,70,0); }
-    }
-
+    /* Page-specific placeholder-section treatments — green-converted from the
+       provisional template palette. Foundation/chrome now come from
+       /assets/brand.css. These rules will be folded in or removed during
+       this page's per-page content rebuild. */
     /* ── Success check badge ── */
     .check-badge {
       width: 88px; height: 88px; border-radius: 50%;
-      background: linear-gradient(135deg, rgba(230,57,70,0.22) 0%, rgba(230,57,70,0.10) 100%);
-      border: 1.5px solid rgba(230,57,70,0.45);
+      background: linear-gradient(135deg, rgba(36,95,9,0.22) 0%, rgba(36,95,9,0.10) 100%);
+      border: 1.5px solid rgba(36,95,9,0.45);
       display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 0 36px rgba(230,57,70,0.28), inset 0 1px 0 rgba(255,255,255,0.10);
+      box-shadow: 0 0 36px rgba(36,95,9,0.28), inset 0 1px 0 rgba(255,255,255,0.10);
     }
-
-    .fade-up {
-      opacity: 0; transform: translateY(24px);
-      transition: opacity 0.55s cubic-bezier(0.4,0,0.2,1), transform 0.55s cubic-bezier(0.4,0,0.2,1);
-    }
-    .fade-up.visible { opacity: 1; transform: translateY(0); }
-
-    #mobile-menu { display: none; }
-    #mobile-menu.open { display: block; }
-
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: #F3F3F6; }
-    ::-webkit-scrollbar-thumb { background: #D0D0DA; border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: var(--glass-primary); }
   </style>
 </head>
 <body class="font-body leading-body">
@@ -260,8 +40,8 @@
     <div class="max-w-6xl mx-auto px-5 flex items-center justify-between">
 
       <!-- LOGO PLACEHOLDER — replace <span> with <img> when client logo is ready -->
-      <a href="/" class="flex items-center group" aria-label="Your Business Name home">
-        <span class="nav-wordmark">Your Business Name</span>
+      <a href="/" class="flex items-center group" aria-label="G-Uprooted Tree Services home">
+        <img src="/brand_assets/logo.png" alt="G-Uprooted Tree Services" class="nav-logo" style="height:96px;width:auto;display:block;" />
       </a>
 
       <!-- Desktop Nav -->
@@ -272,12 +52,12 @@
             <svg class="nav-chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </a>
           <div class="nav-dropdown-menu" role="menu" aria-label="Services">
-            <a href="/services/service-one.html" role="menuitem">Service One</a>
-            <a href="/services/service-two.html" role="menuitem">Service Two</a>
-            <a href="/services/service-three.html" role="menuitem">Service Three</a>
-            <a href="/services/service-five.html" role="menuitem">Service Five</a>
-            <a href="/services/service-four.html" role="menuitem">Service Four</a>
-            <a href="/services/service-six.html" role="menuitem">Service Six</a>
+            <a href="/services/tree-removal.html" role="menuitem">Tree Removal</a>
+            <a href="/services/tree-trimming-pruning.html" role="menuitem">Tree Trimming &amp; Pruning</a>
+            <a href="/services/palm-tree-service.html" role="menuitem">Palm Tree Trimming &amp; Removal</a>
+            <a href="/services/stump-removal.html" role="menuitem">Tree Stump Removal &amp; Grinding</a>
+            <a href="/services/storm-damage-emergency.html" role="menuitem">Storm Damage &amp; Emergency Service</a>
+            <a href="/services/commercial-tree-service.html" role="menuitem">Commercial Tree Service</a>
           </div>
         </div>
         <div class="nav-dropdown">
@@ -286,21 +66,19 @@
             <svg class="nav-chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </a>
           <div class="nav-dropdown-menu" role="menu" aria-label="Areas We Serve">
-            <a href="/areas/city-one.html" role="menuitem">[City]</a>
-            <a href="/areas/city-two.html" role="menuitem">[City 2]</a>
-            <a href="/areas/city-three.html" role="menuitem">[City 3]</a>
-            <a href="/areas/city-four.html" role="menuitem">[City 4]</a>
-            <a href="/areas/city-five.html" role="menuitem">[City 5]</a>
-            <a href="/areas/city-six.html" role="menuitem">[City 6]</a>
+            <a href="/areas/harlingen.html" role="menuitem">Harlingen</a>
+            <a href="/areas/mcallen.html" role="menuitem">McAllen</a>
+            <a href="/areas/brownsville.html" role="menuitem">Brownsville</a>
+            <a href="/areas/south-padre-island.html" role="menuitem">South Padre Island</a>
+            <a href="/areas/edinburg.html" role="menuitem">Edinburg</a>
+            <a href="/areas/mission.html" role="menuitem">Mission</a>
           </div>
         </div>
-        <a href="/#insurance"   class="nav-link text-sm font-medium text-slate-light hover:text-white transition-colors duration-150">Insurance</a>
         <a href="/about.html" class="nav-link text-sm font-medium text-slate-light hover:text-white transition-colors duration-150">About</a>
-        <a href="/#reviews"     class="nav-link text-sm font-medium text-slate-light hover:text-white transition-colors duration-150">Reviews</a>
         <a href="/#contact"     class="nav-link text-sm font-medium text-slate-light hover:text-white transition-colors duration-150">Contact</a>
-        <a href="tel:+15550000000" class="btn-primary text-sm py-2.5 px-5 phone-pulse ml-4">
+        <a href="tel:+19565362384" class="btn-primary text-sm py-2.5 px-5 phone-pulse ml-4">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          (555) 000-0000
+          956-536-2384
         </a>
       </div>
 
@@ -322,32 +100,30 @@
           <svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div id="mobile-services-submenu" class="mobile-services-submenu">
-          <a href="/services/service-one.html">Service One</a>
-          <a href="/services/service-two.html">Service Two</a>
-          <a href="/services/service-three.html">Service Three</a>
-          <a href="/services/service-five.html">Service Five</a>
-          <a href="/services/service-four.html">Service Four</a>
-          <a href="/services/service-six.html">Service Six</a>
+          <a href="/services/tree-removal.html">Tree Removal</a>
+          <a href="/services/tree-trimming-pruning.html">Tree Trimming &amp; Pruning</a>
+          <a href="/services/palm-tree-service.html">Palm Tree Trimming &amp; Removal</a>
+          <a href="/services/stump-removal.html">Tree Stump Removal &amp; Grinding</a>
+          <a href="/services/storm-damage-emergency.html">Storm Damage &amp; Emergency Service</a>
+          <a href="/services/commercial-tree-service.html">Commercial Tree Service</a>
         </div>
         <button type="button" class="mobile-services-toggle py-3 px-3 rounded-lg font-medium" aria-expanded="false" aria-controls="mobile-areas-submenu">
           Areas We Serve
           <svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div id="mobile-areas-submenu" class="mobile-services-submenu">
-          <a href="/areas/city-one.html">[City]</a>
-          <a href="/areas/city-two.html">[City 2]</a>
-          <a href="/areas/city-three.html">[City 3]</a>
-          <a href="/areas/city-four.html">[City 4]</a>
-          <a href="/areas/city-five.html">[City 5]</a>
-          <a href="/areas/city-six.html">[City 6]</a>
+          <a href="/areas/harlingen.html">Harlingen</a>
+          <a href="/areas/mcallen.html">McAllen</a>
+          <a href="/areas/brownsville.html">Brownsville</a>
+          <a href="/areas/south-padre-island.html">South Padre Island</a>
+          <a href="/areas/edinburg.html">Edinburg</a>
+          <a href="/areas/mission.html">Mission</a>
         </div>
-        <a href="/#insurance" class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Insurance</a>
         <a href="/about.html" class="mobile-nav-link py-3 px-3 rounded-lg font-medium">About</a>
-        <a href="/#reviews"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Reviews</a>
         <a href="/#contact"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Contact</a>
-        <a href="tel:+15550000000" class="btn-primary mt-3 justify-center">
+        <a href="tel:+19565362384" class="btn-primary mt-3 justify-center">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          Call (555) 000-0000
+          Call 956-536-2384
         </a>
       </div>
     </div>
@@ -360,9 +136,10 @@
     <section class="hero-bg relative min-h-screen flex items-center justify-center overflow-hidden text-center" style="padding-top: clamp(112px, 16vw, 152px); padding-bottom: clamp(72px, 10vw, 112px);" aria-label="Thank you — request received">
 
       <!-- Hero background photo -->
+      <!-- NEEDS INPUT: client has not provided hero photography yet. Placeholder image — do not present as final. -->
       <img
-        src="/brand_assets/Hero_background.jpg"
-        alt="Open road in the [Region] — Your Business Name serves [City] and the [Region]"
+        src="https://placehold.co/1920x1080/1a1a1a/666666?text=Hero+Image+Needed"
+        alt="G-Uprooted Tree Services — serving Harlingen and the Rio Grande Valley"
         aria-hidden="true"
         style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; z-index: 0;"
       />
@@ -370,7 +147,7 @@
       <!-- Dark overlay -->
       <div style="position: absolute; inset: 0; z-index: 1; background:
         linear-gradient(180deg, rgba(15,15,26,0.80) 0%, rgba(15,15,26,0.55) 45%, rgba(15,15,26,0.82) 100%),
-        radial-gradient(ellipse 70% 80% at 50% 40%, rgba(26,26,46,0.30) 0%, transparent 65%);
+        radial-gradient(ellipse 70% 80% at 50% 40%, rgba(26,56,12,0.30) 0%, transparent 65%);
       "></div>
 
       <!-- Edge vignette -->
@@ -380,7 +157,7 @@
 
         <!-- Success check badge -->
         <div class="check-badge mb-7">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--ember)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--green-bright)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
         </div>
 
         <!-- Eyebrow -->
@@ -394,22 +171,28 @@
         </h1>
 
         <p class="mb-9" style="color: rgba(255,255,255,0.88); font-size: clamp(1rem, 2.2vw, 1.15rem); line-height: 1.72; text-shadow: 0 1px 8px rgba(0,0,0,0.35);">
-          Thanks for reaching out to Your Business Name. Our team will be in touch shortly to confirm your details and get you on the schedule — most jobs are handled the same day. Need something handled right now and can't wait? Give us a call and we'll take care of you.
+          Thanks for reaching out to G-Uprooted Tree Services. We'll call you shortly to confirm the details and set up your free estimate — most jobs are handled the same day. Need a tree handled right now and can't wait? Give us a call and we'll take care of you, 24/7.
         </p>
 
         <!-- Single CTA -->
-        <a href="tel:+15550000000" class="btn-primary text-base px-8 py-4 phone-pulse">
+        <a href="tel:+19565362384" class="btn-primary text-base px-8 py-4 phone-pulse">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          Call Now — (555) 000-0000
+          Call Now — 956-536-2384
+        </a>
+
+        <!-- Back home link -->
+        <a href="/" class="mt-6 link-arrow" style="color: var(--green-bright);">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="transform: rotate(180deg);"><polyline points="9 18 15 12 9 6"/></svg>
+          Back to home
         </a>
 
         <p class="mt-7 text-sm" style="color: rgba(255,255,255,0.62);">
-          Trusted Local Home Services — serving [City] &amp; the [Region].
+          Tree &amp; palm tree specialists — serving Harlingen &amp; the Rio Grande Valley.
         </p>
       </div>
 
       <!-- Ember accent bridge -->
-      <div class="absolute bottom-0 left-0 right-0 z-20" style="height: 4px; background: linear-gradient(90deg, transparent 0%, var(--ember) 18%, var(--ember) 82%, transparent 100%); opacity: 0.90;"></div>
+      <div class="absolute bottom-0 left-0 right-0 z-20" style="height: 4px; background: linear-gradient(90deg, transparent 0%, var(--green-bright) 18%, var(--green-bright) 82%, transparent 100%); opacity: 0.90;"></div>
     </section>
   </main>
 
@@ -423,19 +206,19 @@
         <!-- Brand -->
         <div class="col-span-2 md:col-span-1">
           <!-- LOGO PLACEHOLDER — replace <span> with <img> when client logo is ready -->
-          <a href="/" class="flex items-center mb-2" aria-label="Your Business Name home">
-            <span class="footer-wordmark">Your Business Name</span>
+          <a href="/" class="flex items-center mb-2" aria-label="G-Uprooted Tree Services home">
+            <img src="/brand_assets/logo.png" alt="G-Uprooted Tree Services" class="footer-logo" style="height:116px;width:auto;display:block;" />
           </a>
-          <p style="font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--ember); margin-bottom: 14px; opacity: 0.85;">Trusted Local Home Services</p>
-          <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Professional home services you can count on — serving [City] and the surrounding [Region].</p>
+          <p style="font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--green-bright); margin-bottom: 14px; opacity: 0.9;">Tree &amp; Palm Tree Specialists</p>
+          <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Tree and palm tree trimming, removal, and 24/7 emergency service — serving Harlingen and the surrounding Rio Grande Valley.</p>
           <div class="space-y-2">
-            <a href="tel:+15550000000" class="flex items-center gap-2 text-white text-sm font-medium hover:opacity-80 transition-opacity duration-150">
+            <a href="tel:+19565362384" class="flex items-center gap-2 text-white text-sm font-medium hover:opacity-80 transition-opacity duration-150">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              (555) 000-0000
+              956-536-2384
             </a>
-            <a href="mailto:hello@yourbusiness.com" class="flex items-center gap-2 text-slate-light text-sm hover:text-white transition-colors duration-150">
+            <a href="mailto:ECJ@G-UPROOTED.COM" class="flex items-center gap-2 text-slate-light text-sm hover:text-white transition-colors duration-150">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              hello@yourbusiness.com
+              ECJ@G-UPROOTED.COM
             </a>
           </div>
         </div>
@@ -444,12 +227,12 @@
         <div>
           <h2 class="font-display font-700 text-white text-sm uppercase tracking-widest mb-4">Services</h2>
           <ul class="space-y-2.5">
-            <li><a href="/services/service-two.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Two</a></li>
-            <li><a href="/services/service-one.html"       class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service One</a></li>
-            <li><a href="/services/service-three.html"        class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Three</a></li>
-            <li><a href="/services/service-four.html"    class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Four</a></li>
-            <li><a href="/services/service-five.html"           class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Five</a></li>
-            <li><a href="/services/service-six.html"  class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Six</a></li>
+            <li><a href="/services/tree-removal.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Tree Removal</a></li>
+            <li><a href="/services/tree-trimming-pruning.html"      class="text-slate-light text-sm hover:text-white transition-colors duration-150">Tree Trimming &amp; Pruning</a></li>
+            <li><a href="/services/palm-tree-service.html"  class="text-slate-light text-sm hover:text-white transition-colors duration-150">Palm Tree Trimming &amp; Removal</a></li>
+            <li><a href="/services/stump-removal.html"         class="text-slate-light text-sm hover:text-white transition-colors duration-150">Tree Stump Removal &amp; Grinding</a></li>
+            <li><a href="/services/storm-damage-emergency.html"     class="text-slate-light text-sm hover:text-white transition-colors duration-150">Storm Damage &amp; Emergency Service</a></li>
+            <li><a href="/services/commercial-tree-service.html"     class="text-slate-light text-sm hover:text-white transition-colors duration-150">Commercial Tree Service</a></li>
           </ul>
         </div>
 
@@ -458,8 +241,6 @@
           <h2 class="font-display font-700 text-white text-sm uppercase tracking-widest mb-4">Company</h2>
           <ul class="space-y-2.5">
             <li><a href="/#why-us"       class="text-slate-light text-sm hover:text-white transition-colors duration-150">About Us</a></li>
-            <li><a href="/#reviews"      class="text-slate-light text-sm hover:text-white transition-colors duration-150">Reviews</a></li>
-            <li><a href="/#insurance"    class="text-slate-light text-sm hover:text-white transition-colors duration-150">Insurance Partners</a></li>
             <li><a href="/#service-area" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Areas</a></li>
             <li><a href="/#contact"      class="text-slate-light text-sm hover:text-white transition-colors duration-150">Contact</a></li>
             <li><a href="#"              class="text-slate-light text-sm hover:text-white transition-colors duration-150">Privacy Policy</a></li>
@@ -470,12 +251,12 @@
         <div>
           <h2 class="font-display font-700 text-white text-sm uppercase tracking-widest mb-4">Areas We Serve</h2>
           <ul class="space-y-2.5">
-            <li><a href="/areas/city-one.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City]</a></li>
-            <li><a href="/areas/city-two.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 2]</a></li>
-            <li><a href="/areas/city-three.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 3]</a></li>
-            <li><a href="/areas/city-four.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 4]</a></li>
-            <li><a href="/areas/city-five.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 5]</a></li>
-            <li><a href="/areas/city-six.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 6]</a></li>
+            <li><a href="/areas/harlingen.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Harlingen</a></li>
+            <li><a href="/areas/mcallen.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">McAllen</a></li>
+            <li><a href="/areas/brownsville.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Brownsville</a></li>
+            <li><a href="/areas/south-padre-island.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">South Padre Island</a></li>
+            <li><a href="/areas/edinburg.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Edinburg</a></li>
+            <li><a href="/areas/mission.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Mission</a></li>
           </ul>
         </div>
 
@@ -485,7 +266,7 @@
 
       <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
         <p class="text-slate-light text-xs text-center sm:text-left">
-          © 2026 Your Business Name. All rights reserved. Serving [City] &amp; the [Region], TX.
+          © 2026 G-Uprooted Tree Services. All rights reserved. Serving Harlingen &amp; the Rio Grande Valley, TX.
         </p>
         <div class="flex items-center gap-4">
           <a href="#" class="text-xs text-slate-light hover:text-white transition-colors duration-150">Privacy Policy</a>

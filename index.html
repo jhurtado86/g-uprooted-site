@@ -3,477 +3,90 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Services in [City] | Your Business Name</title>
-  <meta name="description" content="Professional home services in [City], TX and across the [Region]. Same-day appointments, free estimates, and clear, upfront pricing. Call (555) 000-0000." />
-  <meta name="keywords" content="home services [City] TX, home services [City], local home services [Region], home services near me [City], [City 2] home services, professional home services [Region], Your Business Name [City]" />
+  <title>Tree Service in Harlingen, TX | G-Uprooted Tree Services</title>
+  <meta name="description" content="Tree and palm tree trimming and removal in Harlingen, TX and across the Rio Grande Valley. 24/7 emergency service and free estimates. Call 956-536-2384." />
+  <meta name="keywords" content="tree service Harlingen TX, tree removal Harlingen, tree trimming and pruning Rio Grande Valley, palm tree trimming and removal RGV, stump removal and grinding, storm damage emergency tree service, commercial tree service Harlingen" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <link rel="canonical" href="https://yourbusiness.com/" />
+  <link rel="canonical" href="https://g-uprootedrgv.com/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Home Services in [City] | Your Business Name" />
-  <meta property="og:description" content="Professional home services across [City] &amp; the [Region]. Same-day appointments, free estimates, and mobile service to your door. Call (555) 000-0000." />
-  <meta property="og:url" content="https://yourbusiness.com/" />
+  <meta property="og:title" content="Tree Service in Harlingen, TX | G-Uprooted Tree Services" />
+  <meta property="og:description" content="Tree and palm tree trimming, removal, and 24/7 emergency service across Harlingen &amp; the Rio Grande Valley. Free estimates. Call 956-536-2384." />
+  <meta property="og:url" content="https://g-uprootedrgv.com/" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://yourbusiness.com/brand_assets/og-image.jpg" /><!-- PLACEHOLDER: brand_assets/og-image.jpg does not exist yet — create 1200×630 social share image before launch -->
+  <meta property="og:image" content="https://g-uprootedrgv.com/brand_assets/og-image.jpg" /><!-- PLACEHOLDER: brand_assets/og-image.jpg does not exist yet — create 1200×630 social share image before launch -->
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:site_name" content="Your Business Name" />
+  <meta property="og:site_name" content="G-Uprooted Tree Services" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Home Services in [City] | Your Business Name" />
-  <meta name="twitter:description" content="Professional home services across [City] &amp; the [Region]. Same-day appointments, free estimates, and clear, upfront pricing. Call (555) 000-0000." />
-  <meta name="twitter:image" content="https://yourbusiness.com/brand_assets/og-image.jpg" /><!-- PLACEHOLDER: same 1200×630 image -->
+  <meta name="twitter:title" content="Tree Service in Harlingen, TX | G-Uprooted Tree Services" />
+  <meta name="twitter:description" content="Tree and palm tree trimming and removal in Harlingen &amp; the Rio Grande Valley. 24/7 emergency service, free estimates. Call 956-536-2384." />
+  <meta name="twitter:image" content="https://g-uprootedrgv.com/brand_assets/og-image.jpg" /><!-- PLACEHOLDER: same 1200×630 image -->
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            glass:  { DEFAULT: '#E63946', 400: '#E04250', 300: '#EC5A66', 200: '#F2C9CD', 100: '#FCEEEF' },
-            ink:    { DEFAULT: '#1A1A2E', 800: '#1A1A2E', 700: '#26263E', 600: '#2E2E46' },
-            steel:  { DEFAULT: '#26263E', 700: '#2E2E46', 600: '#34344E' },
-            ember:  { DEFAULT: '#E63946', 400: '#D62F3D', 300: '#F2737D' },
-            slate:  { light: '#5B5B68', muted: '#8E8E9C' },
-          },
-          fontFamily: {
-            display: ['Barlow', 'sans-serif'],
-            body:    ['Nunito', 'sans-serif'],
-          },
-          boxShadow: {
-            'card':    '0 2px 8px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04)',
-            'card-lg': '0 8px 32px rgba(0,0,0,0.10), 0 2px 6px rgba(0,0,0,0.05)',
-            'glow':    '0 0 28px rgba(26,26,46,0.16)',
-            'cta':     '0 4px 20px rgba(230,57,70,0.30)',
-          },
-          letterSpacing: { tight: '-0.03em' },
-          lineHeight:    { body: '1.7' },
-        },
-      },
-    };
-  </script>
+  <script src="/assets/brand-config.js"></script>
+
+  <link rel="stylesheet" href="/assets/brand.css" />
 
   <style>
-    /* PROVISIONAL COLORS — replace when client brand colors confirmed */
-    :root {
-      --glass-primary: #E63946;
-      --glass-hover:   #D62F3D;
-      --glass-light:   #EC5A66;
-      --glass-pale:    #F2C9CD;
-      --glass-ultra:   #FCEEEF;
-      --ink:           #1A1A2E;
-      --ink-body:      #1A1A2E;
-      --ember:         #E63946;
-      --ember-hover:   #D62F3D;
-      --slate:         #5B5B68;
-      --slate-muted:   #8E8E9C;
+    /* ---- Homepage-only: Recent Work video + photo grids ---- */
+    /* Facebook video embeds (responsive 9:16 phone frames) */
+    .video-grid {
+      display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start;
+      gap: 28px; max-width: 760px; margin: 0 auto;
     }
-
-    *, *::before, *::after { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Nunito', sans-serif; background: #fff; color: var(--ink-body); }
-    h1,h2,h3,h4 { font-family: 'Barlow', sans-serif; }
-
-    .section-dark { background: #FFFFFF; }
-    .section-mid  {
-      background:
-        radial-gradient(ellipse 100% 60% at 50% 0%, rgba(26,26,46,0.05) 0%, transparent 55%),
-        #ECECF1;
-    }
-    .dark-section { background: #1A1A2E; }
-
-    /* ---- Atmospheric depth for light sections (grain + corner wash) ---- */
-    .atmo { position: relative; overflow: hidden; }
-    .atmo > * { position: relative; z-index: 1; }
-    .atmo::before {
-      content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
-      opacity: 0.05; background-size: 160px 160px;
-      background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='160'%20height='160'%3E%3Cfilter%20id='n'%3E%3CfeTurbulence%20type='fractalNoise'%20baseFrequency='0.85'%20numOctaves='2'%20stitchTiles='stitch'/%3E%3C/filter%3E%3Crect%20width='100%25'%20height='100%25'%20filter='url(%23n)'/%3E%3C/svg%3E");
-    }
-    .atmo::after {
-      content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none;
-      background: var(--wash, transparent);
-    }
-    .wash-navy-tr  { --wash: radial-gradient(ellipse 55% 48% at 100% 0%,   rgba(26,26,46,0.06) 0%, transparent 60%); }
-    .wash-navy-br  { --wash: radial-gradient(ellipse 55% 48% at 100% 100%, rgba(26,26,46,0.06) 0%, transparent 60%); }
-    .wash-navy-bl  { --wash: radial-gradient(ellipse 55% 48% at 0% 100%,   rgba(26,26,46,0.06) 0%, transparent 60%); }
-    .wash-ember-tl { --wash: radial-gradient(ellipse 55% 48% at 0% 0%,     rgba(230,57,70,0.05) 0%, transparent 60%); }
-    .wash-ember-tr { --wash: radial-gradient(ellipse 55% 48% at 100% 0%,   rgba(230,57,70,0.05) 0%, transparent 60%); }
-
-    /* ---- Insurance section: deep-navy treatment (page rhythm) ---- */
-    #insurance.dark-section {
-      background:
-        radial-gradient(ellipse 90% 70% at 12% 0%,   rgba(26,26,46,0.20) 0%, transparent 55%),
-        radial-gradient(ellipse 85% 65% at 100% 100%, rgba(230,57,70,0.08) 0%, transparent 52%),
-        #1A1A2E;
-    }
-    #insurance .area-card {
-      background: linear-gradient(135deg, rgba(255,255,255,0.055) 0%, rgba(255,255,255,0.02) 100%), rgba(22,22,38,0.45);
-      border: 1px solid rgba(255,255,255,0.10);
-      box-shadow: 0 1px 3px rgba(0,0,0,0.30), 0 20px 50px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.06);
-    }
-    #insurance .area-card > .text-center span { color: #F0888F !important; }
-    #insurance .area-card p { color: #A6A6B6 !important; }
-    #insurance .insurer-pill {
-      background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.16); color: #D8D8E2;
-    }
-    #insurance .insurer-pill:hover {
-      background: rgba(255,255,255,0.12); border-color: rgba(230,57,70,0.45); transform: translateY(-1px);
-    }
-
-    /* ---- Reviews section: deep-navy treatment (page rhythm) ---- */
-    #reviews.dark-section {
-      background:
-        radial-gradient(ellipse 80% 60% at 12% 6%, rgba(230,57,70,0.07) 0%, transparent 50%),
-        #1A1A2E;
-    }
-    #reviews .area-card {
-      background: linear-gradient(135deg, rgba(255,255,255,0.055) 0%, rgba(255,255,255,0.02) 100%), rgba(22,22,38,0.45) !important;
-      border-color: rgba(255,255,255,0.10) !important;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.30), 0 20px 50px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.06);
-    }
-
-    .dark-section .text-white        { color: #fff !important; }
-    .dark-section .text-slate-light  { color: #9C9CAC !important; }
-    .dark-section .btn-outline       { color: #fff; border-color: rgba(255,255,255,0.28); }
-    .dark-section .btn-outline:hover { border-color: rgba(255,255,255,0.60); background: rgba(255,255,255,0.06); }
-    .dark-section .divider           { background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent); }
-    .dark-section .section-title-accent { background: linear-gradient(90deg, transparent 0%, var(--ember) 25%, var(--ember) 75%, transparent 100%); }
-
-    .section-dark .text-white,
-    .section-mid  .text-white       { color: var(--ink-body); }
-    .section-dark .text-slate-light,
-    .section-mid  .text-slate-light { color: #54545F; }
-    .hero-bg .text-slate-light      { color: #9A9AA8; }
-
-    .divider {
-      height: 1px;
-      background: linear-gradient(90deg, transparent 0%, rgba(26,26,46,0.12) 30%, rgba(26,26,46,0.12) 70%, transparent 100%);
-    }
-
-    .dark-cta-ramp {
-      position: absolute; top: 0; left: 0; right: 0;
-      height: 90px; pointer-events: none; z-index: 3;
-      background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, transparent 100%);
-    }
-
-    .nav-wordmark {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 800; font-size: 24px;
-      letter-spacing: -0.02em; color: #fff; line-height: 1;
-      transition: color 0.25s cubic-bezier(0.4,0,0.2,1);
-    }
-    .nav-wordmark .plus { color: var(--ember); }
-    #navbar.scrolled .nav-wordmark { color: var(--ink-body); }
-
-    .footer-wordmark {
-      font-family: 'Barlow', sans-serif;
-      font-weight: 800; font-size: 28px;
-      letter-spacing: -0.02em; color: #fff; line-height: 1;
-    }
-    .footer-wordmark .plus { color: var(--ember); }
-
-    #navbar {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 50;
-      background: transparent;
-      border-bottom: 1px solid transparent;
-      transition: background 0.40s cubic-bezier(0.4,0,0.2,1),
-                  border-color 0.40s cubic-bezier(0.4,0,0.2,1),
-                  box-shadow 0.40s cubic-bezier(0.4,0,0.2,1);
-    }
-    #navbar .text-slate-light          { color: rgba(255,255,255,0.68) !important; }
-    #navbar .hover\:text-white:hover   { color: rgba(255,255,255,1) !important; }
-    #navbar #hamburger                 { color: rgba(255,255,255,0.80) !important; border-color: rgba(255,255,255,0.18) !important; }
-    #mobile-menu                       { background: rgba(26,26,46,0.96); backdrop-filter: blur(18px); }
-    #mobile-menu a.mobile-nav-link     { color: rgba(255,255,255,0.68) !important; }
-    #mobile-menu a.mobile-nav-link:hover { color: rgba(255,255,255,1) !important; background: rgba(255,255,255,0.06) !important; }
-    #mobile-menu                       { border-top-color: rgba(255,255,255,0.08) !important; }
-
-    #navbar.scrolled {
-      background: rgba(255,255,255,0.72);
-      backdrop-filter: blur(22px); -webkit-backdrop-filter: blur(22px);
-      border-bottom-color: rgba(26,26,46,0.07);
-      box-shadow: 0 1px 24px rgba(0,0,0,0.06);
-    }
-    #navbar.scrolled .text-slate-light         { color: var(--slate) !important; }
-    #navbar.scrolled .hover\:text-white:hover  { color: var(--ink-body) !important; }
-    #navbar.scrolled #hamburger                { color: var(--ink-body) !important; border-color: rgba(26,26,46,0.16) !important; }
-    #navbar.scrolled #mobile-menu              { background: #fff; }
-    #navbar.scrolled #mobile-menu a.mobile-nav-link       { color: var(--slate) !important; }
-    #navbar.scrolled #mobile-menu a.mobile-nav-link:hover { color: var(--ink-body) !important; background: rgba(26,26,46,0.04) !important; }
-    #navbar.scrolled #mobile-menu { border-top-color: rgba(26,26,46,0.08) !important; }
-
-    .nav-link { position: relative; }
-    .nav-link::after {
-      content: ''; position: absolute; bottom: -2px; left: 0;
-      width: 0; height: 2px; background: var(--glass-primary);
-      transition: width 0.25s cubic-bezier(0.4,0,0.2,1);
-    }
-    .nav-link:hover::after { width: 100%; }
-
-    /* ── Services dropdown (desktop) ── */
-    .nav-dropdown { position: relative; }
-    .nav-dropdown-trigger { display: inline-flex; align-items: center; gap: 5px; }
-    .nav-dropdown-trigger .nav-chev { transition: transform 0.25s cubic-bezier(0.4,0,0.2,1); }
-    .nav-dropdown:hover .nav-chev,
-    .nav-dropdown:focus-within .nav-chev { transform: rotate(180deg); }
-    .nav-dropdown-menu {
-      position: absolute; top: 100%; left: 50%;
-      margin-top: 14px; min-width: 252px; padding: 8px;
-      background: rgba(26,26,46,0.97); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
-      border: 1px solid rgba(255,255,255,0.08); border-radius: 14px;
-      box-shadow: 0 18px 48px rgba(0,0,0,0.34), 0 2px 8px rgba(0,0,0,0.18);
-      opacity: 0; visibility: hidden; pointer-events: none;
-      transform: translateX(-50%) translateY(8px);
-      transition: opacity 0.22s cubic-bezier(0.4,0,0.2,1), transform 0.22s cubic-bezier(0.4,0,0.2,1);
-      z-index: 60;
-    }
-    .nav-dropdown-menu::before { content: ''; position: absolute; top: -14px; left: 0; right: 0; height: 14px; }
-    .nav-dropdown:hover .nav-dropdown-menu,
-    .nav-dropdown:focus-within .nav-dropdown-menu {
-      opacity: 1; visibility: visible; pointer-events: auto;
-      transform: translateX(-50%) translateY(0);
-    }
-    .nav-dropdown-menu a {
-      display: block; padding: 10px 14px; border-radius: 9px;
-      font-size: 14px; font-weight: 500; line-height: 1.3; white-space: nowrap;
-      color: rgba(255,255,255,0.70);
-      transition: color 0.15s cubic-bezier(0.4,0,0.2,1), background 0.15s cubic-bezier(0.4,0,0.2,1);
-    }
-    .nav-dropdown-menu a:hover { color: #fff; background: rgba(255,255,255,0.07); }
-    .nav-dropdown-menu a[aria-current="page"] { color: #fff; font-weight: 700; background: rgba(230,57,70,0.16); }
-    #navbar.scrolled .nav-dropdown-menu {
-      background: rgba(255,255,255,0.98); border-color: rgba(26,26,46,0.08);
-      box-shadow: 0 18px 48px rgba(26,26,46,0.14), 0 2px 8px rgba(26,26,46,0.06);
-    }
-    #navbar.scrolled .nav-dropdown-menu a { color: var(--slate); }
-    #navbar.scrolled .nav-dropdown-menu a:hover { color: var(--ink-body); background: rgba(26,26,46,0.04); }
-    #navbar.scrolled .nav-dropdown-menu a[aria-current="page"] { color: var(--ink-body); background: rgba(230,57,70,0.12); }
-
-    /* ── Services dropdown (mobile) ── */
-    .mobile-services-toggle {
-      display: flex; align-items: center; justify-content: space-between; width: 100%;
-      background: none; border: none; cursor: pointer; font: inherit; text-align: left;
-      color: rgba(255,255,255,0.68);
-      transition: color 0.15s cubic-bezier(0.4,0,0.2,1), background 0.15s cubic-bezier(0.4,0,0.2,1);
-    }
-    .mobile-services-toggle:hover { color: #fff; background: rgba(255,255,255,0.06); }
-    .mobile-services-toggle .nav-chev { transition: transform 0.25s cubic-bezier(0.4,0,0.2,1); flex-shrink: 0; }
-    .mobile-services-toggle[aria-expanded="true"] .nav-chev { transform: rotate(180deg); }
-    .mobile-services-submenu {
-      display: none; flex-direction: column; gap: 2px;
-      margin: 2px 0 2px 14px; padding-left: 10px;
-      border-left: 1px solid rgba(255,255,255,0.12);
-    }
-    .mobile-services-submenu.open { display: flex; }
-    .mobile-services-submenu a {
-      padding: 9px 12px; border-radius: 8px; font-size: 14px; font-weight: 500;
-      color: rgba(255,255,255,0.58);
-      transition: color 0.15s cubic-bezier(0.4,0,0.2,1), background 0.15s cubic-bezier(0.4,0,0.2,1);
-    }
-    .mobile-services-submenu a:hover { color: #fff; background: rgba(255,255,255,0.06); }
-    .mobile-services-submenu a[aria-current="page"] { color: #fff; font-weight: 700; }
-    #navbar.scrolled .mobile-services-toggle { color: var(--slate); }
-    #navbar.scrolled .mobile-services-toggle:hover { color: var(--ink-body); background: rgba(26,26,46,0.04); }
-    #navbar.scrolled .mobile-services-submenu { border-left-color: rgba(26,26,46,0.10); }
-    #navbar.scrolled .mobile-services-submenu a { color: var(--slate); }
-    #navbar.scrolled .mobile-services-submenu a:hover { color: var(--ink-body); background: rgba(26,26,46,0.04); }
-
-    .hero-bg { background: #1A1A2E; }
-    .hero-vignette {
-      background: radial-gradient(ellipse 120% 100% at 50% 50%, transparent 35%, rgba(0,0,0,0.50) 100%);
-      pointer-events: none;
-    }
-    .hero-bg .trust-badge {
-      background: rgba(230,57,70,0.12);
-      border-color: rgba(230,57,70,0.28);
-      color: var(--glass-pale);
-    }
-    .hero-bg .btn-outline { color: rgba(255,255,255,0.88); border-color: rgba(255,255,255,0.20); }
-    .hero-bg .btn-outline:hover { border-color: rgba(230,57,70,0.50); background: rgba(26,26,46,0.14); transform: translateY(-2px); }
-    @media (max-width: 767px) { .hero-text-block h1 { font-size: 2.15rem !important; } }
-
-    .btn-primary {
-      background: var(--ember); color: #fff;
-      font-weight: 700; border-radius: 8px; padding: 14px 28px; font-size: 15px;
-      letter-spacing: 0.01em;
-      box-shadow: 0 4px 18px rgba(230,57,70,0.30);
-      transition: transform 0.18s cubic-bezier(0.4,0,0.2,1),
-                  box-shadow 0.18s cubic-bezier(0.4,0,0.2,1),
-                  background 0.18s cubic-bezier(0.4,0,0.2,1);
-      display: inline-flex; align-items: center; gap: 8px;
-    }
-    .btn-primary:hover  { background: var(--ember-hover); transform: translateY(-2px); box-shadow: 0 8px 26px rgba(230,57,70,0.38); }
-    .btn-primary:active { transform: translateY(0); box-shadow: 0 2px 10px rgba(230,57,70,0.22); }
-    .btn-primary:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; }
-
-    .btn-outline {
-      background: transparent; color: var(--ink-body);
-      font-weight: 600; border: 1.5px solid rgba(26,26,46,0.22);
-      border-radius: 8px; padding: 13px 28px; font-size: 15px;
-      transition: transform 0.18s cubic-bezier(0.4,0,0.2,1),
-                  border-color 0.18s cubic-bezier(0.4,0,0.2,1),
-                  background 0.18s cubic-bezier(0.4,0,0.2,1);
-      display: inline-flex; align-items: center; gap: 8px;
-    }
-    .btn-outline:hover  { border-color: var(--glass-primary); background: rgba(26,26,46,0.05); transform: translateY(-2px); }
-    .btn-outline:active { transform: translateY(0); }
-    .btn-outline:focus-visible { outline: 2px solid var(--glass-primary); outline-offset: 3px; }
-
-    .service-card {
-      background: #fff; border: 1px solid rgba(26,26,46,0.07); border-radius: 16px; padding: 30px;
-      box-shadow: 0 1px 2px rgba(26,26,46,0.05), 0 6px 18px rgba(26,26,46,0.10), 0 16px 40px rgba(26,26,46,0.09), 0 0 0 1px rgba(26,26,46,0.05);
+    .video-frame {
+      position: relative; width: 100%; flex: 1 1 300px; max-width: 340px;
+      aspect-ratio: 267 / 476;            /* preserve the vertical source ratio */
+      border-radius: 20px; overflow: hidden; background: #1A380C;
+      box-shadow: 0 1px 2px rgba(26,56,12,0.06), 0 10px 28px rgba(26,56,12,0.16),
+                  0 24px 56px rgba(26,56,12,0.12), 0 0 0 1px rgba(26,56,12,0.07);
       transition: transform 0.24s cubic-bezier(0.34,1.56,0.64,1),
-                  box-shadow 0.24s cubic-bezier(0.4,0,0.2,1),
-                  border-color 0.24s cubic-bezier(0.4,0,0.2,1);
+                  box-shadow 0.24s cubic-bezier(0.4,0,0.2,1);
     }
-    .service-card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 20px 48px rgba(26,26,46,0.13), 0 0 0 1.5px rgba(26,26,46,0.20);
-      border-color: transparent;
+    .video-frame:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 22px 52px rgba(26,56,12,0.20),
+                  0 0 0 1.5px rgba(26,56,12,0.18);
     }
-    .service-card:focus-visible { outline: 2px solid var(--glass-primary); outline-offset: 3px; }
-
-    .feature-card {
-      background: #fff; border: 1px solid rgba(26,26,46,0.07); border-radius: 16px; padding: 28px 24px;
-      box-shadow: 0 1px 2px rgba(26,26,46,0.05), 0 6px 18px rgba(26,26,46,0.09), 0 16px 38px rgba(26,26,46,0.08);
-      transition: transform 0.24s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.24s cubic-bezier(0.4,0,0.2,1);
-    }
-    .feature-card:hover { transform: translateY(-5px); box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 16px 36px rgba(26,26,46,0.11); }
-
-    .insurer-pill {
-      background: rgba(26,26,46,0.07); border: 1px solid rgba(26,26,46,0.16);
-      border-radius: 100px; padding: 8px 20px; font-size: 14px; font-weight: 600;
-      color: var(--glass-primary); display: inline-flex; align-items: center;
-      transition: background 0.18s, border-color 0.18s, transform 0.18s cubic-bezier(0.34,1.56,0.64,1);
-    }
-    .insurer-pill:hover { background: rgba(26,26,46,0.14); border-color: rgba(26,26,46,0.30); transform: translateY(-1px); }
-
-    .trust-badge {
-      background: rgba(26,26,46,0.07); border: 1px solid rgba(26,26,46,0.15);
-      border-radius: 100px; padding: 6px 14px; font-size: 13px; font-weight: 500;
-      color: var(--glass-primary); display: inline-flex; align-items: center; gap: 6px;
-    }
-    .section-title-accent {
-      display: inline-block; width: 64px; height: 3px;
-      background: linear-gradient(90deg, transparent 0%, var(--ember) 25%, var(--ember) 75%, transparent 100%);
-      border-radius: 2px; margin-bottom: 12px;
-    }
-    .icon-wrap {
-      width: 48px; height: 48px;
-      background: linear-gradient(135deg, rgba(26,26,46,0.10) 0%, rgba(26,26,46,0.06) 100%);
-      border: 1px solid rgba(26,26,46,0.14); border-radius: 12px;
-      display: flex; align-items: center; justify-content: center;
-      margin-bottom: 16px; flex-shrink: 0;
-      box-shadow: 0 2px 8px rgba(26,26,46,0.09), inset 0 1px 0 rgba(255,255,255,0.60);
-    }
-    .link-arrow {
-      display: inline-flex; align-items: center; gap: 6px;
-      font-size: 14px; font-weight: 600; color: var(--glass-primary);
-      transition: color 0.18s cubic-bezier(0.4,0,0.2,1), gap 0.18s cubic-bezier(0.4,0,0.2,1);
-    }
-    .link-arrow:hover { color: var(--glass-hover); gap: 10px; }
-    .link-arrow:focus-visible { outline: 2px solid var(--glass-primary); outline-offset: 2px; border-radius: 4px; }
-
-    .area-card {
-      background: linear-gradient(135deg, rgba(26,26,46,0.04) 0%, rgba(26,26,46,0.015) 100%), #fff;
-      border: 1px solid rgba(26,26,46,0.12); border-radius: 18px; padding: 36px 40px;
-      box-shadow: 0 1px 3px rgba(26,26,46,0.05), 0 10px 28px rgba(26,26,46,0.10), 0 22px 56px rgba(26,26,46,0.09), 0 0 0 1px rgba(26,26,46,0.06);
-    }
-    .area-dot {
-      width: 8px; height: 8px; border-radius: 50%;
-      background: linear-gradient(135deg, var(--glass-primary), var(--glass-hover));
-      box-shadow: 0 0 6px rgba(26,26,46,0.40); flex-shrink: 0;
+    .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
+    /* Fallback for browsers without aspect-ratio support */
+    @supports not (aspect-ratio: 1) {
+      .video-frame { height: 0; padding-bottom: 178.27%; } /* 476/267 */
     }
 
-    .stars { color: #F59E0B; letter-spacing: 1px; }
-
-    #mobile-menu { display: none; }
-    #mobile-menu.open { display: block; }
-
-    .fade-up {
-      opacity: 0; transform: translateY(24px);
-      transition: opacity 0.55s cubic-bezier(0.4,0,0.2,1), transform 0.55s cubic-bezier(0.4,0,0.2,1);
+    /* ---- Recent Work: photo grid (2×2 portrait, stacks on mobile) ---- */
+    .photo-grid {
+      display: grid; grid-template-columns: 1fr; gap: 20px;
+      max-width: 880px; margin: 0 auto;
     }
-    .fade-up.visible { opacity: 1; transform: translateY(0); }
-
-    .phone-pulse { animation: pulse-ring 2.5s cubic-bezier(0.4,0,0.6,1) infinite; }
-    @keyframes pulse-ring {
-      0%, 100% { box-shadow: 0 0 0 0 rgba(230,57,70,0.4); }
-      50%       { box-shadow: 0 0 0 10px rgba(230,57,70,0); }
+    @media (min-width: 700px) { .photo-grid { grid-template-columns: 1fr 1fr; gap: 22px; } }
+    .photo-frame {
+      position: relative; aspect-ratio: 3 / 4; overflow: hidden;
+      border-radius: 18px; background: #1A380C;
+      box-shadow: 0 1px 2px rgba(26,56,12,0.06), 0 10px 28px rgba(26,56,12,0.15),
+                  0 22px 52px rgba(26,56,12,0.11), 0 0 0 1px rgba(26,56,12,0.07);
+      transition: transform 0.24s cubic-bezier(0.34,1.56,0.64,1),
+                  box-shadow 0.24s cubic-bezier(0.4,0,0.2,1);
     }
-
-    @media (min-width: 1024px) {
-      .hero-outer {
-        max-width: none !important; margin-left: 0 !important; margin-right: 0 !important;
-        padding-left: clamp(48px, 5vw, 96px) !important; padding-right: 0 !important;
-      }
-      .hero-text-block { max-width: 600px !important; }
-    }
-
-    ::-webkit-scrollbar { width: 6px; }
-    ::-webkit-scrollbar-track { background: #F3F3F6; }
-    ::-webkit-scrollbar-thumb { background: #D0D0DA; border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: var(--glass-primary); }
-
-    /* ---- Recent Work gallery ---- */
-    .work-tile {
-      position: relative; overflow: hidden; border-radius: 16px; background: #1A1A2E;
-      box-shadow: 0 1px 2px rgba(26,26,46,0.05), 0 8px 22px rgba(26,26,46,0.11), 0 18px 44px rgba(26,26,46,0.10), 0 0 0 1px rgba(26,26,46,0.05);
-    }
-    .work-tile img {
-      display: block; width: 100%; height: 100%; object-fit: cover; object-position: center;
+    .photo-frame img {
+      width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;
       transition: transform 0.55s cubic-bezier(0.22,1,0.36,1);
     }
-    .work-tile:hover img { transform: scale(1.045); }
-
-    .work-card {
-      display: flex; flex-direction: column;
-      background: #fff; border: 1px solid rgba(26,26,46,0.07); border-radius: 18px; padding: 14px;
-      box-shadow: 0 1px 2px rgba(26,26,46,0.05), 0 8px 22px rgba(26,26,46,0.10), 0 18px 42px rgba(26,26,46,0.09), 0 0 0 1px rgba(26,26,46,0.05);
+    .photo-frame:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06), 0 22px 52px rgba(26,56,12,0.20),
+                  0 0 0 1.5px rgba(26,56,12,0.18);
     }
-    .ba-frame { position: relative; overflow: hidden; border-radius: 12px; background: #1A1A2E; }
-    .ba-frame img {
-      display: block; width: 100%; height: 100%; object-fit: cover; object-position: center;
-      transition: transform 0.55s cubic-bezier(0.22,1,0.36,1);
-    }
-    .ba-frame:hover img { transform: scale(1.05); }
-
-    .ba-tag {
-      position: absolute; top: 10px; left: 10px; z-index: 2;
-      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 10.5px;
-      letter-spacing: 0.09em; text-transform: uppercase; padding: 4px 10px; border-radius: 100px;
-      background: var(--ember); color: #fff; box-shadow: 0 2px 8px rgba(230,57,70,0.34);
-    }
-    .ba-tag.is-before { background: rgba(26,26,46,0.80); color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.28); }
-
-    .work-cap {
-      display: flex; align-items: center; gap: 8px; margin-top: 12px; padding: 0 4px 2px;
-      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 14px; color: var(--ink-body); letter-spacing: -0.01em;
-    }
-    .work-cap .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ember); flex-shrink: 0; box-shadow: 0 0 6px rgba(230,57,70,0.45); }
-    .work-cap .muted { font-family: 'Nunito', sans-serif; font-weight: 500; color: var(--slate); letter-spacing: 0; }
-
-    .work-featured-tag {
-      position: absolute; top: 14px; left: 14px; z-index: 3;
-      display: inline-flex; align-items: center; gap: 6px;
-      font-family: 'Barlow', sans-serif; font-weight: 700; font-size: 11px;
-      letter-spacing: 0.10em; text-transform: uppercase; padding: 6px 12px; border-radius: 100px;
-      background: var(--ember); color: #fff; box-shadow: 0 3px 12px rgba(230,57,70,0.38);
-    }
-    .work-grad {
-      position: absolute; inset: 0; z-index: 1; pointer-events: none;
-      background: linear-gradient(180deg, rgba(15,15,26,0) 42%, rgba(15,15,26,0.16) 64%, rgba(15,15,26,0.80) 100%);
-    }
-    .work-overlay-cap { position: absolute; left: 0; right: 0; bottom: 0; z-index: 2; padding: 18px 18px 16px; color: #fff; pointer-events: none; }
-    .work-overlay-cap .t { font-family: 'Barlow', sans-serif; font-weight: 800; font-size: 18px; letter-spacing: -0.02em; line-height: 1.1; }
-    .work-overlay-cap .s { font-size: 13.5px; color: rgba(255,255,255,0.82); margin-top: 3px; }
+    .photo-frame:hover img { transform: scale(1.04); }
+    .photo-frame:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
   </style>
 
   <!-- LocalBusiness Structured Data -->
@@ -481,12 +94,12 @@
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://yourbusiness.com/#business",
-    "name": "Your Business Name",
-    "description": "Professional home services in [City], TX and across the [Region]. Serving homes and businesses with same-day appointments, free estimates, mobile service, and a satisfaction guarantee on every job.",
-    "url": "https://yourbusiness.com/",
-    "telephone": "+15550000000",
-    "email": "hello@yourbusiness.com",
+    "@id": "https://g-uprootedrgv.com/#business",
+    "name": "G-Uprooted Tree Services",
+    "description": "Tree service in Harlingen, TX and across the Rio Grande Valley — tree and palm tree trimming, removal, stump grinding, storm damage cleanup, and 24/7 emergency service for homes and businesses.",
+    "url": "https://g-uprootedrgv.com/",
+    "telephone": "+19565362384",
+    "email": "ECJ@G-UPROOTED.COM",
     "priceRange": "$$",
     "openingHoursSpecification": [
       {
@@ -503,29 +116,35 @@
       }
     ],
     "areaServed": [
-      { "@type": "City", "name": "[City]",   "containedInPlace": { "@type": "State", "name": "Texas" } },
-      { "@type": "City", "name": "[City 2]",  "containedInPlace": { "@type": "State", "name": "Texas" } },
-      { "@type": "City", "name": "[City 3]",   "containedInPlace": { "@type": "State", "name": "Texas" } },
-      { "@type": "City", "name": "[City 4]",     "containedInPlace": { "@type": "State", "name": "Texas" } },
-      { "@type": "City", "name": "[City 5]",  "containedInPlace": { "@type": "State", "name": "Texas" } },
-      { "@type": "City", "name": "[City 6]", "containedInPlace": { "@type": "State", "name": "Texas" } }
+      { "@type": "City", "name": "Harlingen",            "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "McAllen",              "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "Brownsville",          "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "South Padre Island",   "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "Edinburg",             "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "City", "name": "Mission",              "containedInPlace": { "@type": "State", "name": "Texas" } },
+      { "@type": "AdministrativeArea", "name": "Rio Grande Valley", "containedInPlace": { "@type": "State", "name": "Texas" } }
     ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Our Services",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service One" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Two" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Three" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Four" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Five" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service Six" } }
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tree Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tree Trimming & Pruning" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Palm Tree Trimming & Removal" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tree Stump Removal & Grinding" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Storm Damage & Emergency Tree Service" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Tree Service" } }
       ]
     }
   }
   </script>
 </head>
 <body class="font-body leading-body">
+
+  <!-- Facebook SDK (loaded once) — powers the Recent Work video embeds -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+          src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"></script>
 
   <!-- ============================================================
        STICKY NAVIGATION
@@ -534,8 +153,8 @@
     <div class="max-w-6xl mx-auto px-5 flex items-center justify-between">
 
       <!-- LOGO PLACEHOLDER — replace <span> with <img> when client logo is ready -->
-      <a href="/" class="flex items-center group" aria-label="Your Business Name home">
-        <span class="nav-wordmark">Your Business Name</span>
+      <a href="/" class="flex items-center group" aria-label="G-Uprooted Tree Services home">
+        <img src="/brand_assets/logo.png" alt="G-Uprooted Tree Services" class="nav-logo" style="height:96px;width:auto;display:block;" />
       </a>
 
       <!-- Desktop Nav -->
@@ -546,12 +165,12 @@
             <svg class="nav-chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </a>
           <div class="nav-dropdown-menu" role="menu" aria-label="Services">
-            <a href="/services/service-one.html" role="menuitem">Service One</a>
-            <a href="/services/service-two.html" role="menuitem">Service Two</a>
-            <a href="/services/service-three.html" role="menuitem">Service Three</a>
-            <a href="/services/service-five.html" role="menuitem">Service Five</a>
-            <a href="/services/service-four.html" role="menuitem">Service Four</a>
-            <a href="/services/service-six.html" role="menuitem">Service Six</a>
+            <a href="/services/tree-removal.html" role="menuitem">Tree Removal</a>
+            <a href="/services/tree-trimming-pruning.html" role="menuitem">Tree Trimming &amp; Pruning</a>
+            <a href="/services/palm-tree-service.html" role="menuitem">Palm Tree Trimming &amp; Removal</a>
+            <a href="/services/stump-removal.html" role="menuitem">Tree Stump Removal &amp; Grinding</a>
+            <a href="/services/storm-damage-emergency.html" role="menuitem">Storm Damage &amp; Emergency Service</a>
+            <a href="/services/commercial-tree-service.html" role="menuitem">Commercial Tree Service</a>
           </div>
         </div>
         <div class="nav-dropdown">
@@ -560,21 +179,19 @@
             <svg class="nav-chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
           </a>
           <div class="nav-dropdown-menu" role="menu" aria-label="Areas We Serve">
-            <a href="/areas/city-one.html" role="menuitem">[City]</a>
-            <a href="/areas/city-two.html" role="menuitem">[City 2]</a>
-            <a href="/areas/city-three.html" role="menuitem">[City 3]</a>
-            <a href="/areas/city-four.html" role="menuitem">[City 4]</a>
-            <a href="/areas/city-five.html" role="menuitem">[City 5]</a>
-            <a href="/areas/city-six.html" role="menuitem">[City 6]</a>
+            <a href="/areas/harlingen.html" role="menuitem">Harlingen</a>
+            <a href="/areas/mcallen.html" role="menuitem">McAllen</a>
+            <a href="/areas/brownsville.html" role="menuitem">Brownsville</a>
+            <a href="/areas/south-padre-island.html" role="menuitem">South Padre Island</a>
+            <a href="/areas/edinburg.html" role="menuitem">Edinburg</a>
+            <a href="/areas/mission.html" role="menuitem">Mission</a>
           </div>
         </div>
-        <a href="#insurance"   class="nav-link text-sm font-medium text-slate-light hover:text-white transition-colors duration-150">Insurance</a>
         <a href="/about.html" class="nav-link text-sm font-medium text-slate-light hover:text-white transition-colors duration-150">About</a>
-        <a href="#reviews"     class="nav-link text-sm font-medium text-slate-light hover:text-white transition-colors duration-150">Reviews</a>
         <a href="#contact"     class="nav-link text-sm font-medium text-slate-light hover:text-white transition-colors duration-150">Contact</a>
-        <a href="tel:+15550000000" class="btn-primary text-sm py-2.5 px-5 phone-pulse ml-4">
+        <a href="tel:+19565362384" class="btn-primary text-sm py-2.5 px-5 phone-pulse ml-4">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          (555) 000-0000
+          956-536-2384
         </a>
       </div>
 
@@ -596,32 +213,30 @@
           <svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div id="mobile-services-submenu" class="mobile-services-submenu">
-          <a href="/services/service-one.html">Service One</a>
-          <a href="/services/service-two.html">Service Two</a>
-          <a href="/services/service-three.html">Service Three</a>
-          <a href="/services/service-five.html">Service Five</a>
-          <a href="/services/service-four.html">Service Four</a>
-          <a href="/services/service-six.html">Service Six</a>
+          <a href="/services/tree-removal.html">Tree Removal</a>
+          <a href="/services/tree-trimming-pruning.html">Tree Trimming &amp; Pruning</a>
+          <a href="/services/palm-tree-service.html">Palm Tree Trimming &amp; Removal</a>
+          <a href="/services/stump-removal.html">Tree Stump Removal &amp; Grinding</a>
+          <a href="/services/storm-damage-emergency.html">Storm Damage &amp; Emergency Service</a>
+          <a href="/services/commercial-tree-service.html">Commercial Tree Service</a>
         </div>
         <button type="button" class="mobile-services-toggle py-3 px-3 rounded-lg font-medium" aria-expanded="false" aria-controls="mobile-areas-submenu">
           Areas We Serve
           <svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div id="mobile-areas-submenu" class="mobile-services-submenu">
-          <a href="/areas/city-one.html">[City]</a>
-          <a href="/areas/city-two.html">[City 2]</a>
-          <a href="/areas/city-three.html">[City 3]</a>
-          <a href="/areas/city-four.html">[City 4]</a>
-          <a href="/areas/city-five.html">[City 5]</a>
-          <a href="/areas/city-six.html">[City 6]</a>
+          <a href="/areas/harlingen.html">Harlingen</a>
+          <a href="/areas/mcallen.html">McAllen</a>
+          <a href="/areas/brownsville.html">Brownsville</a>
+          <a href="/areas/south-padre-island.html">South Padre Island</a>
+          <a href="/areas/edinburg.html">Edinburg</a>
+          <a href="/areas/mission.html">Mission</a>
         </div>
-        <a href="#insurance" class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Insurance</a>
         <a href="/about.html" class="mobile-nav-link py-3 px-3 rounded-lg font-medium">About</a>
-        <a href="#reviews"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Reviews</a>
         <a href="#contact"   class="mobile-nav-link py-3 px-3 rounded-lg font-medium">Contact</a>
-        <a href="tel:+15550000000" class="btn-primary mt-3 justify-center">
+        <a href="tel:+19565362384" class="btn-primary mt-3 justify-center">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          Call (555) 000-0000
+          Call 956-536-2384
         </a>
       </div>
     </div>
@@ -630,18 +245,23 @@
   <!-- ============================================================
        HERO
   ============================================================ -->
-  <section class="hero-bg relative min-h-screen flex items-center overflow-hidden" style="padding-top: clamp(88px, 14vw, 128px); padding-bottom: clamp(56px, 8vw, 96px);" aria-label="Your Business Name Professional Home Services in [City] TX">
+  <section class="hero-bg relative min-h-screen flex items-center overflow-hidden" style="padding-top: clamp(88px, 14vw, 128px); padding-bottom: clamp(56px, 8vw, 96px);" aria-label="G-Uprooted Tree Services — tree and palm tree trimming and removal in Harlingen, TX">
 
     <!-- Hero background photo -->
     <img
-      src="/brand_assets/Hero_background.jpg"
-      alt="Professional home services in [City] and across the [Region] — Your Business Name"
+      src="/brand_assets/hero-background.png"
+      alt="Tree and palm tree service in Harlingen and across the Rio Grande Valley — G-Uprooted Tree Services"
       aria-hidden="true"
       style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center center; z-index: 0;"
     />
 
+    <!-- Color treatment layer (deep-green tint, multiply) -->
+    <div style="position: absolute; inset: 0; z-index: 1; mix-blend-mode: multiply; background:
+      linear-gradient(135deg, rgba(20,58,38,0.55) 0%, rgba(15,15,26,0.35) 60%, rgba(20,58,38,0.45) 100%);
+    "></div>
+
     <!-- Dark overlay -->
-    <div style="position: absolute; inset: 0; z-index: 1; background:
+    <div style="position: absolute; inset: 0; z-index: 2; background:
       linear-gradient(180deg, rgba(15,15,26,0.72) 0%, rgba(15,15,26,0.32) 25%, rgba(15,15,26,0.28) 65%, rgba(15,15,26,0.75) 100%),
       radial-gradient(ellipse 65% 100% at 0% 50%, rgba(15,15,26,0.78) 0%, transparent 65%);
     "></div>
@@ -652,42 +272,26 @@
     <div class="hero-outer relative z-10 max-w-5xl mx-auto px-5 w-full">
       <div class="hero-text-block max-w-2xl fade-up">
 
-        <!-- Trust badges -->
-        <div class="flex flex-wrap gap-2 mb-7">
-          <span class="trust-badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            Free Estimates
-          </span>
-          <span class="trust-badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            Same-Day Service
-          </span>
-          <span class="trust-badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            Mobile Service
-          </span>
-        </div>
-
         <!-- Eyebrow -->
-        <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ember); margin-bottom: 20px; text-shadow: 0 1px 8px rgba(0,0,0,0.30);">Trusted Local Home Services</p>
+        <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--green-bright); margin-bottom: 20px; text-shadow: 0 1px 8px rgba(0,0,0,0.30);">Tree &amp; Palm Tree Specialists</p>
 
         <h1 class="font-display text-white mb-5" style="font-size: clamp(2.4rem, 6vw, 3.8rem); letter-spacing: -0.03em; line-height: 1.06; font-weight: 800; text-shadow: 0 2px 24px rgba(0,0,0,0.45);">
-          Professional<br />Home Services<br />
-          <span style="color: var(--ember);">in [City], TX.</span>
+          Tree &amp; Palm Tree<br />Trimming &amp; Removal<br />
+          <span style="color: var(--green-bright);">in Harlingen, TX.</span>
         </h1>
 
         <p class="mb-8 max-w-xl" style="color: rgba(255,255,255,0.88); font-size: clamp(1rem, 2.2vw, 1.125rem); line-height: 1.72; text-shadow: 0 1px 8px rgba(0,0,0,0.35);">
-          When you need a job done right in [City], the last thing you want is the runaround. Our team comes to you, explains every step, and stands behind clean, careful work. Every job we take on is <strong style="color: #fff;">backed by our satisfaction guarantee</strong>.
+          Need a tree trimmed, taken down, or cleaned up after a storm? G-Uprooted Tree Services has cared for trees and palms across Harlingen and the Rio Grande Valley for more than 10 years. We serve homes and businesses, we're available <strong style="color: #fff;">24/7 for emergencies</strong>, and every estimate is free.
         </p>
 
         <!-- CTAs -->
         <div class="flex flex-wrap gap-4 mb-10">
-          <a href="tel:+15550000000" class="btn-primary text-base px-7 py-4">
+          <a href="tel:+19565362384" class="btn-primary text-base px-7 py-4">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            Call Now — (555) 000-0000
+            Call Now — 956-536-2384
           </a>
           <a href="#contact" class="btn-outline text-base px-7 py-4">
-            Get a Free Quote
+            Get a Free Estimate
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
           </a>
         </div>
@@ -695,26 +299,21 @@
         <!-- Stats row -->
         <div class="flex flex-wrap gap-8">
           <div>
-            <div class="font-display font-700 text-2xl text-white" style="text-shadow: 0 1px 8px rgba(0,0,0,0.4);">Top</div>
-            <div class="text-slate-light text-sm mt-0.5">Five-Star Reviews</div>
+            <div class="font-display font-700 text-2xl text-white" style="text-shadow: 0 1px 8px rgba(0,0,0,0.4);">10+</div>
+            <div class="text-slate-light text-sm mt-0.5">Years of Experience</div>
           </div>
           <div class="w-px" style="background: rgba(255,255,255,0.14);"></div>
           <div>
-            <div class="font-display font-700 text-2xl text-white" style="text-shadow: 0 1px 8px rgba(0,0,0,0.4);">Mobile</div>
-            <div class="text-slate-light text-sm mt-0.5">Service Available</div>
-          </div>
-          <div class="w-px" style="background: rgba(255,255,255,0.14);"></div>
-          <div>
-            <div class="font-display font-700 text-2xl text-white" style="text-shadow: 0 1px 8px rgba(0,0,0,0.4);">Free</div>
-            <div class="text-slate-light text-sm mt-0.5">Free Estimates</div>
+            <div class="font-display font-700 text-2xl text-white" style="text-shadow: 0 1px 8px rgba(0,0,0,0.4);">24/7</div>
+            <div class="text-slate-light text-sm mt-0.5">Emergency Service</div>
           </div>
         </div>
 
       </div>
     </div>
 
-    <!-- Ember accent bridge -->
-    <div class="absolute bottom-0 left-0 right-0 z-20" style="height: 4px; background: linear-gradient(90deg, transparent 0%, var(--ember) 18%, var(--ember) 82%, transparent 100%); opacity: 0.90;"></div>
+    <!-- Green accent bridge -->
+    <div class="absolute bottom-0 left-0 right-0 z-20" style="height: 4px; background: linear-gradient(90deg, transparent 0%, var(--green) 18%, var(--green) 82%, transparent 100%); opacity: 0.90;"></div>
   </section>
 
   <main id="main-content">
@@ -722,47 +321,47 @@
     <!-- ============================================================
          TRUST BAR
     ============================================================ -->
-    <section class="dark-section py-5 border-b" style="border-color: rgba(255,255,255,0.07);" aria-label="Why choose Your Business Name">
+    <section class="dark-section atmo py-5 border-b" style="border-color: rgba(255,255,255,0.07);" aria-label="Why choose G-Uprooted Tree Services">
       <div class="max-w-6xl mx-auto px-5">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-0 md:divide-x" style="--tw-divide-opacity: 1; divide-color: rgba(255,255,255,0.08);">
 
           <div class="flex items-center gap-3 px-6 py-2">
-            <div style="width:36px;height:36px;background:rgba(26,26,46,0.18);border:1px solid rgba(26,26,46,0.28);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div style="width:36px;height:36px;background:rgba(26,56,12,0.18);border:1px solid rgba(26,56,12,0.28);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--green-leaf)" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             </div>
             <div>
               <div class="font-display font-700 text-white text-sm">Free Estimates</div>
-              <div class="text-xs" style="color: #9C9CAC;">Free, no obligation</div>
+              <div class="text-xs" style="color: #9DB39A;">Home or commercial</div>
             </div>
           </div>
 
           <div class="flex items-center gap-3 px-6 py-2">
-            <div style="width:36px;height:36px;background:rgba(26,26,46,0.18);border:1px solid rgba(26,26,46,0.28);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div style="width:36px;height:36px;background:rgba(189,26,39,0.16);border:1px solid rgba(189,26,39,0.34);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--emergency)" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
             </div>
             <div>
-              <div class="font-display font-700 text-white text-sm">Same-Day Service</div>
-              <div class="text-xs" style="color: #9C9CAC;">[City] &amp; the [Region]</div>
+              <div class="font-display font-700 text-white text-sm">24/7 Emergency Service</div>
+              <div class="text-xs" style="color: #9DB39A;">Storm &amp; dangerous tree removal</div>
             </div>
           </div>
 
           <div class="flex items-center gap-3 px-6 py-2">
-            <div style="width:36px;height:36px;background:rgba(26,26,46,0.18);border:1px solid rgba(26,26,46,0.28);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <div style="width:36px;height:36px;background:rgba(26,56,12,0.18);border:1px solid rgba(26,56,12,0.28);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--green-leaf)" stroke-width="2.2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
             </div>
             <div>
               <div class="font-display font-700 text-white text-sm">Fair, Honest Pricing</div>
-              <div class="text-xs" style="color: #9C9CAC;">No hidden fees</div>
+              <div class="text-xs" style="color: #9DB39A;">No hidden fees, ever</div>
             </div>
           </div>
 
           <div class="flex items-center gap-3 px-6 py-2">
-            <div style="width:36px;height:36px;background:rgba(26,26,46,0.18);border:1px solid rgba(26,26,46,0.28);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div style="width:36px;height:36px;background:rgba(26,56,12,0.18);border:1px solid rgba(26,56,12,0.28);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="var(--green-leaf)" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             </div>
             <div>
-              <div class="font-display font-700 text-white text-sm">Mobile Service</div>
-              <div class="text-xs" style="color: #9C9CAC;">We come to you</div>
+              <div class="font-display font-700 text-white text-sm">Residential &amp; Commercial</div>
+              <div class="text-xs" style="color: #9DB39A;">Across the Rio Grande Valley</div>
             </div>
           </div>
 
@@ -775,54 +374,54 @@
     <!-- ============================================================
          SERVICES
     ============================================================ -->
-    <section id="services" class="section-mid atmo wash-navy-tr py-20" aria-label="Home services in [City] and the [Region]">
+    <section id="services" class="section-mid atmo wash-deep-tr py-20" aria-label="Tree services in Harlingen and the Rio Grande Valley">
       <div class="max-w-6xl mx-auto px-5">
 
         <div class="text-center mb-12 fade-up">
           <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
           <h2 class="font-display text-4xl lg:text-5xl font-700 text-white mb-4" style="letter-spacing: -0.03em;">
-            Our Services in [City] &amp; the [Region]
+            Our Tree Services in Harlingen &amp; the Rio Grande Valley
           </h2>
           <p class="text-slate-light text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
-            Quality home services in [City] shouldn't mean waiting a week to get on the schedule. Your Business Name handles everything from quick fixes to full installations — and our team comes to you, across [City], [City 2], [City 3], [City 4], [City 5], and [City 6].
+            From a single overgrown palm to a full tree removal, G-Uprooted Tree Services handles it all. Our team trims and removes trees and palms, grinds stumps, and clears storm damage for homes and businesses in Harlingen, McAllen, Brownsville, South Padre Island, Edinburg, and Mission.
           </p>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 fade-up" style="transition-delay: 0.06s;">
 
-          <a href="/services/service-one.html" class="service-card block">
+          <a href="/services/tree-removal.html" class="service-card block">
             <div class="icon-wrap">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2" stroke-linecap="round">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round">
                 <rect x="2" y="6" width="20" height="13" rx="3"/>
                 <path d="M2 11h20"/>
               </svg>
             </div>
-            <h3 class="font-display font-700 text-white text-xl mb-2">Service One</h3>
-            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Our most-requested service in [City]. We handle every job from start to finish with quality materials matched to the work and a clean, precise result — and most jobs are completed the same day.</p>
+            <h3 class="font-display font-700 text-white text-xl mb-2">Tree Removal</h3>
+            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Dead, leaning, or growing too close to the house? Our team takes trees down safely and hauls everything away — no damage to your property and no mess left behind. Big or small, no job is too tough.</p>
             <span class="link-arrow">
               Learn more
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
             </span>
           </a>
 
-          <a href="/services/service-two.html" class="service-card block">
+          <a href="/services/tree-trimming-pruning.html" class="service-card block">
             <div class="icon-wrap">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2" stroke-linecap="round">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round">
                 <path d="M3 17L7 7h10l4 10H3z"/>
                 <path d="M11 7.5l1.5 3.5-1 2.5" stroke-width="1.6" opacity="0.65"/>
               </svg>
             </div>
-            <h3 class="font-display font-700 text-white text-xl mb-2">Service Two</h3>
-            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">A faster, smaller-scale fix handled the right way. Your Business Name takes care of it efficiently — often in about an hour — and the work in [City] is backed by our satisfaction guarantee.</p>
+            <h3 class="font-display font-700 text-white text-xl mb-2">Tree Trimming &amp; Pruning</h3>
+            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Regular trimming keeps your trees healthy and safe. We remove dead and broken limbs, shape the canopy, and clear branches away from roofs, power lines, and walkways.</p>
             <span class="link-arrow">
               Learn more
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
             </span>
           </a>
 
-          <a href="/services/service-three.html" class="service-card block">
+          <a href="/services/palm-tree-service.html" class="service-card block">
             <div class="icon-wrap">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2" stroke-linecap="round">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round">
                 <circle cx="12" cy="12" r="4"/>
                 <line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/>
                 <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
@@ -830,54 +429,54 @@
                 <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
               </svg>
             </div>
-            <h3 class="font-display font-700 text-white text-xl mb-2">Service Three</h3>
-            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Restore and protect what you already have. Our team brings it back to like-new condition in about an hour — no full replacement needed, and you'll notice the difference right away.</p>
+            <h3 class="font-display font-700 text-white text-xl mb-2">Palm Tree Trimming &amp; Removal</h3>
+            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Palms are our specialty. We trim, skin, and remove palm trees of every size across the Rio Grande Valley — clearing dead fronds, seed pods, and the storm risk that comes with them.</p>
             <span class="link-arrow">
               Learn more
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
             </span>
           </a>
 
-          <a href="/services/service-five.html" class="service-card block">
+          <a href="/services/stump-removal.html" class="service-card block">
             <div class="icon-wrap">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2" stroke-linecap="round">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round">
                 <rect x="3" y="3" width="18" height="18" rx="2"/>
                 <line x1="3" y1="12" x2="21" y2="12"/>
                 <line x1="12" y1="3" x2="12" y2="21"/>
               </svg>
             </div>
-            <h3 class="font-display font-700 text-white text-xl mb-2">Service Five</h3>
-            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">When something needs replacing, our team handles it the same day across [City] and the [Region] — clean work, nothing left behind, and a precise, factory-grade fit.</p>
+            <h3 class="font-display font-700 text-white text-xl mb-2">Tree Stump Removal &amp; Grinding</h3>
+            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Leftover stumps trip people up, attract pests, and waste yard space. We grind them down below the surface so you can reclaim the ground and put the spot back to use.</p>
             <span class="link-arrow">
               Learn more
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
             </span>
           </a>
 
-          <a href="/services/service-four.html" class="service-card block">
+          <a href="/services/storm-damage-emergency.html" class="service-card block">
             <div class="icon-wrap">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2" stroke-linecap="round">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
                 <circle cx="12" cy="10" r="3"/>
               </svg>
             </div>
-            <h3 class="font-display font-700 text-white text-xl mb-2">Service Four</h3>
-            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">You don't have to come to us. Our team loads up and comes to your home, office, or wherever works for you — across all of [City], [City 2], [City 3], [City 4], [City 5], and [City 6].</p>
+            <h3 class="font-display font-700 text-white text-xl mb-2">Storm Damage &amp; Emergency Service</h3>
+            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">When a storm brings a tree down, we answer 24/7. Our team clears fallen limbs and dangerous trees fast — day or night — so your home or business stays safe.</p>
             <span class="link-arrow">
               Learn more
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
             </span>
           </a>
 
-          <a href="/services/service-six.html" class="service-card block">
+          <a href="/services/commercial-tree-service.html" class="service-card block">
             <div class="icon-wrap">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2" stroke-linecap="round">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round">
                 <path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3"/>
                 <rect x="9" y="11" width="14" height="10" rx="2"/>
               </svg>
             </div>
-            <h3 class="font-display font-700 text-white text-xl mb-2">Service Six</h3>
-            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">When you need it handled fast, our team responds quickly — using quality materials matched to the job and installed with the same care we bring to every job at Your Business Name.</p>
+            <h3 class="font-display font-700 text-white text-xl mb-2">Commercial Tree Service</h3>
+            <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Property managers, RV parks, HOAs, and real estate pros count on us for dependable, scheduled tree care. We keep your grounds clean, safe, and looking sharp.</p>
             <span class="link-arrow">
               Learn more
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
@@ -893,128 +492,60 @@
     <!-- ============================================================
          RECENT WORK
     ============================================================ -->
-    <section id="recent-work" class="section-dark atmo wash-ember-tl py-20" aria-label="Recent home services jobs in [City] and the [Region]">
+    <section id="recent-work" class="section-dark atmo wash-green-tl py-24 lg:py-28" aria-label="Recent tree and palm jobs in Harlingen and the Rio Grande Valley">
       <div class="max-w-6xl mx-auto px-5">
 
-        <div class="text-center mb-12 fade-up">
+        <div class="text-center mb-14 fade-up">
           <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-          <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ember); margin-bottom: 14px;">Recent Work</p>
+          <p style="font-family: 'Barlow', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--green); margin-bottom: 14px;">Recent Work</p>
           <h2 class="font-display text-4xl lg:text-5xl font-700 text-white mb-4" style="letter-spacing: -0.03em;">
-            Real Home Services Jobs From Around [City]
+            Recent Tree &amp; Palm Jobs Across the Rio Grande Valley
           </h2>
           <p class="text-slate-light text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
-            These are real jobs from real customers across the [Region] — handled with the same care every time. Our team treats every job like it's their own, and [City] keeps sending neighbors our way.
+            From big tree removals to clean palm trims, this is the kind of work our team does every week across Harlingen and the Rio Grande Valley. Take a look at some of our recent tree and palm work below.
           </p>
         </div>
 
-        <!-- Featured + before/after pairs -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 fade-up" style="transition-delay: 0.06s;">
+        <!-- Centerpiece: two recent-job videos (Facebook video plugin — responsive 9:16
+             iframe embeds). Facebook SDK is loaded once near </body> (fb-root + sdk.js). -->
+        <div class="video-grid fade-up" style="transition-delay: 0.06s;">
 
-          <!-- Featured: white Ferrari -->
-          <figure class="work-tile aspect-[4/5] lg:aspect-auto lg:col-span-6 lg:row-span-2">
-            <img src="https://placehold.co/800x1000?text=Your+Work+Photo" alt="Recent home services project in [City] by Your Business Name" loading="lazy" />
-            <div class="work-grad"></div>
-          </figure>
-
-          <!-- Before / after pair -->
-          <figure class="work-card lg:col-span-6">
-            <div class="grid grid-cols-2 gap-3">
-              <div class="ba-frame" style="aspect-ratio: 4 / 3;">
-                <span class="ba-tag is-before">Before</span>
-                <img src="https://placehold.co/800x600?text=Before" alt="Home services project in [City] by Your Business Name — before" loading="lazy" />
-              </div>
-              <div class="ba-frame" style="aspect-ratio: 4 / 3;">
-                <span class="ba-tag">After</span>
-                <img src="https://placehold.co/800x600?text=After" alt="Home services project in [City] by Your Business Name — after" loading="lazy" />
-              </div>
-            </div>
-          </figure>
-
-          <!-- Before / after pair -->
-          <figure class="work-card lg:col-span-6">
-            <div class="grid grid-cols-2 gap-3">
-              <div class="ba-frame" style="aspect-ratio: 3 / 4;">
-                <span class="ba-tag is-before">Before</span>
-                <img src="https://placehold.co/600x800?text=Before" alt="Completed home services job in [City] by Your Business Name — before" loading="lazy" />
-              </div>
-              <div class="ba-frame" style="aspect-ratio: 3 / 4;">
-                <span class="ba-tag">After</span>
-                <img src="https://placehold.co/600x800?text=After" alt="Completed home services job in [City] by Your Business Name — after" loading="lazy" />
-              </div>
-            </div>
-          </figure>
-
-        </div>
-
-        <!-- Standalone shots -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-5 fade-up" style="transition-delay: 0.1s;">
-          <figure class="work-tile aspect-[4/3]">
-            <img src="https://placehold.co/800x600?text=Your+Work+Photo" alt="Completed home services project in [City] by Your Business Name" loading="lazy" />
-            <div class="work-grad"></div>
-          </figure>
-          <figure class="work-tile aspect-[4/3]">
-            <img src="https://placehold.co/800x600?text=Your+Work+Photo" alt="Finished home services job in [City] by Your Business Name" loading="lazy" />
-            <div class="work-grad"></div>
-          </figure>
-        </div>
-
-      </div>
-    </section>
-
-    <div class="divider"></div>
-
-    <!-- ============================================================
-         INSURANCE
-    ============================================================ -->
-    <section id="insurance" class="dark-section py-20" aria-label="Insurance and financing for home services in [City]">
-      <div class="max-w-6xl mx-auto px-5">
-
-        <div class="text-center mb-12 fade-up">
-          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-          <h2 class="font-display text-4xl lg:text-5xl font-700 text-white mb-4" style="letter-spacing: -0.03em;">
-            Insurance &amp; Financing,<br />Made Simple
-          </h2>
-          <p class="text-slate-light text-lg max-w-2xl mx-auto" style="line-height: 1.7;">
-            If your project is covered by your insurance, Your Business Name works directly with your carrier so you're not left figuring out the paperwork on your own. Not filing a claim? You'll still get a free, no-pressure estimate and clear, upfront pricing before any work begins — in [City] and across the [Region].
-          </p>
-        </div>
-
-        <div class="fade-up" style="transition-delay: 0.06s;">
-          <div class="area-card mb-10">
-            <div class="text-center mb-5">
-              <span class="text-xs font-700 uppercase tracking-widest" style="color: var(--glass-primary); font-family: 'Barlow', sans-serif;">We Work Directly With These Carriers</span>
-            </div>
-            <!-- PLACEHOLDER: replace with the client's actual insurance carriers / financing partners (or remove this section if they don't bill insurance) -->
-            <div class="flex flex-wrap justify-center gap-3">
-              <span class="insurer-pill">Allstate</span>
-              <span class="insurer-pill">USAA</span>
-              <span class="insurer-pill">Geico</span>
-              <span class="insurer-pill">Nationwide</span>
-              <span class="insurer-pill">Progressive</span>
-              <span class="insurer-pill">Liberty Mutual</span>
-              <span class="insurer-pill">Farmers Insurance</span>
-              <span class="insurer-pill">Assurance</span>
-            </div>
-            <p class="text-center mt-5 text-sm" style="color: var(--slate);">Don't see your carrier? Call us — we work with most major providers.</p>
+          <div class="video-frame">
+            <iframe
+              src="https://www.facebook.com/plugins/video.php?height=476&amp;href=https%3A%2F%2Fwww.facebook.com%2F100083124762596%2Fvideos%2F1730363600948162%2F&amp;show_text=false&amp;width=267&amp;t=0"
+              title="Recent G-Uprooted tree and palm job in the Rio Grande Valley — video 1"
+              scrolling="no" frameborder="0" allowfullscreen="true" loading="lazy"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           </div>
 
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            <div class="text-center">
-              <div class="w-12 h-12 rounded-full flex items-center justify-center text-white font-display font-800 text-xl mx-auto mb-4" style="background: var(--glass-primary); font-family: 'Barlow', sans-serif;">1</div>
-              <h3 class="font-display font-700 text-white text-base mb-2">Call or Book Online</h3>
-              <p class="text-sm text-slate-light" style="line-height: 1.65;">Tell us about the job and, if you're filing a claim, who your insurance carrier is. We can usually walk you through your options in just a few minutes over the phone.</p>
-            </div>
-            <div class="text-center">
-              <div class="w-12 h-12 rounded-full flex items-center justify-center text-white font-display font-800 text-xl mx-auto mb-4" style="background: var(--glass-primary); font-family: 'Barlow', sans-serif;">2</div>
-              <h3 class="font-display font-700 text-white text-base mb-2">We Work With Your Insurance</h3>
-              <p class="text-sm text-slate-light" style="line-height: 1.65;">Your Business Name reaches out to your carrier directly to verify your coverage and what's needed to move forward. We keep you in the loop the whole way through.</p>
-            </div>
-            <div class="text-center">
-              <div class="w-12 h-12 rounded-full flex items-center justify-center text-white font-display font-800 text-xl mx-auto mb-4" style="background: var(--glass-primary); font-family: 'Barlow', sans-serif;">3</div>
-              <h3 class="font-display font-700 text-white text-base mb-2">Job Done, Stress-Free</h3>
-              <p class="text-sm text-slate-light" style="line-height: 1.65;">Once everything's confirmed, our team schedules the work at your location — your home, office, or wherever works for you. We handle the details so you don't have to.</p>
-            </div>
+          <div class="video-frame">
+            <iframe
+              src="https://www.facebook.com/plugins/video.php?height=476&amp;href=https%3A%2F%2Fwww.facebook.com%2F100083124762596%2Fvideos%2F283808730490439%2F&amp;show_text=false&amp;width=267&amp;t=0"
+              title="Recent G-Uprooted tree and palm job in the Rio Grande Valley — video 2"
+              scrolling="no" frameborder="0" allowfullscreen="true" loading="lazy"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
           </div>
+
+        </div>
+
+        <!-- Recent job photos (2×2 portrait grid, stacks on mobile) -->
+        <div class="photo-grid fade-up mt-16 lg:mt-20" style="transition-delay: 0.1s;">
+          <figure class="photo-frame" tabindex="0">
+            <img src="/brand_assets/home1.jpeg" loading="lazy"
+                 alt="Commercial property tree and palm care by G-Uprooted Tree Services in the Rio Grande Valley — shade trees, palms, and desert landscaping kept clean and safe" />
+          </figure>
+          <figure class="photo-frame" tabindex="0">
+            <img src="/brand_assets/home2.jpeg" loading="lazy"
+                 alt="G-Uprooted Tree Services crew member climbing and trimming a palm tree with a chainsaw at an RV park in the Rio Grande Valley" />
+          </figure>
+          <figure class="photo-frame" tabindex="0">
+            <img src="/brand_assets/home3.jpeg" loading="lazy"
+                 alt="Tree and palm maintenance at a Cameron County commercial building in the Rio Grande Valley by G-Uprooted Tree Services" />
+          </figure>
+          <figure class="photo-frame" tabindex="0">
+            <img src="/brand_assets/home4.jpeg" loading="lazy"
+                 alt="G-Uprooted Tree Services using a bucket lift to trim a large oak tree at a Harlingen property in the Rio Grande Valley" />
+          </figure>
         </div>
 
       </div>
@@ -1025,7 +556,7 @@
     <!-- ============================================================
          WHY CHOOSE US
     ============================================================ -->
-    <section id="why-us" class="section-mid atmo wash-ember-tl py-20" aria-label="Why choose Your Business Name — about our team">
+    <section id="why-us" class="section-mid atmo wash-green-tl py-20" aria-label="Why choose G-Uprooted Tree Services — about our team">
       <div class="max-w-6xl mx-auto px-5">
         <div class="grid lg:grid-cols-2 gap-14 items-center">
 
@@ -1033,95 +564,28 @@
           <div class="fade-up">
             <div class="section-title-accent mb-3"></div>
             <h2 class="font-display text-4xl lg:text-[2.75rem] font-700 text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
-              Honesty. Attention to Detail.<br />Dedication.<br /><span style="color: var(--ember);">We Deliver All Three.</span>
+              Trees Are<br />All We Do.<br /><span style="color: var(--green);">And We Do Them Right.</span>
             </h2>
             <p class="text-slate-light text-lg mb-6" style="line-height: 1.7;">
-              <a href="/about.html" class="font-600 hover:opacity-80 transition-opacity" style="color: var(--glass-primary);">Your Business Name</a> was built around a simple idea: do the job right, be honest about what it costs, show up when you say you will, and stand behind your work. No gimmicks, no upsell, no fine print.
+              <a href="/about.html" class="font-600 hover:opacity-80 transition-opacity" style="color: var(--green);">G-Uprooted Tree Services</a> has spent more than 10 years trimming and removing trees and palms across the Rio Grande Valley. Owner Emilio Gonzalez built the business on a simple idea: do the job right, be honest about the cost, and stand behind the work.
             </p>
             <p class="text-slate-light text-lg mb-8" style="line-height: 1.7;">
-              What keeps customers coming back — and sending their families — is how our team handles the whole job. We explain every step, answer every question, and leave your home better than we found it. That's what five-star reviews across [City], [City 2], [City 3], and the rest of the [Region] look like.
+              From a quick trim to an emergency removal at 2 a.m., we treat your property like our own. No job is too big or too small, every estimate is free, and we clean up so well you'd never know we were there — except for the trees.
             </p>
-            <a href="tel:+15550000000" class="btn-primary">
+            <a href="tel:+19565362384" class="btn-primary">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               Talk to Our Team
             </a>
           </div>
 
-          <!-- Right: feature cards -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 fade-up" style="transition-delay: 0.1s;">
-
-            <div class="feature-card">
-              <div class="icon-wrap">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
-              </div>
-              <h3 class="font-display font-700 text-white text-lg mb-2">Satisfaction Guaranteed</h3>
-              <p class="text-slate-light text-sm" style="line-height: 1.7;">Every job at Your Business Name is backed by our satisfaction guarantee. If something isn't right, our team comes back and makes it right — no hassle, no questions asked.</p>
-            </div>
-
-            <div class="feature-card">
-              <div class="icon-wrap">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2.2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-              </div>
-              <h3 class="font-display font-700 text-white text-lg mb-2">Transparent Pricing</h3>
-              <p class="text-slate-light text-sm" style="line-height: 1.7;">We give you a price before any work starts, and that's what you pay. No hidden fees, no charges that appear after the job is done. What we quote is what you owe.</p>
-            </div>
-
-            <div class="feature-card">
-              <div class="icon-wrap">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              </div>
-              <h3 class="font-display font-700 text-white text-lg mb-2">We Come To You</h3>
-              <p class="text-slate-light text-sm" style="line-height: 1.7;">Skip the trip. Our team brings everything needed to your home, driveway, or workplace. Mobile service is available across [City], [City 2], [City 3], [City 4], [City 5], and [City 6].</p>
-            </div>
-
-            <div class="feature-card">
-              <div class="icon-wrap">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </div>
-              <h3 class="font-display font-700 text-white text-lg mb-2">Five-Star Reviews</h3>
-              <p class="text-slate-light text-sm" style="line-height: 1.7;">Five-star reviews on Google — all from real customers in [City] and across the [Region]. Check them out before you call.</p>
-            </div>
-
+          <!-- Right: showcase photo (no text overlay — kept clear/bright) -->
+          <div class="fade-up" style="transition-delay: 0.1s;">
+            <figure class="photo-frame" style="max-width: 440px; margin: 0 auto;">
+              <img src="/brand_assets/7.jpg" loading="lazy"
+                   alt="The G-Uprooted Tree Services truck of owner Emilio Gonzalez parked among palm trees at a Rio Grande Valley RV park, ready for tree and palm trimming and removal" />
+            </figure>
           </div>
         </div>
-      </div>
-    </section>
-
-    <div class="divider"></div>
-
-    <!-- ============================================================
-         REVIEWS
-    ============================================================ -->
-    <section id="reviews" class="dark-section atmo wash-navy-br py-20" aria-label="Customer reviews — five-star reviews">
-      <div class="max-w-6xl mx-auto px-5">
-
-        <div class="text-center mb-12 fade-up">
-          <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
-          <h2 class="font-display text-4xl lg:text-5xl font-700 text-white mb-4" style="letter-spacing: -0.03em;">
-            <span style="color: var(--ember);">Top</span> Five-Star Reviews Across<br />[City] &amp; the [Region]
-          </h2>
-          <div class="flex items-center justify-center gap-3 mb-3">
-            <span class="stars text-2xl">★★★★★</span>
-            <span class="font-display font-700 text-white text-2xl">5.0</span>
-            <span class="text-slate-light text-base">on Google</span>
-          </div>
-          <p class="text-slate-light text-lg max-w-xl mx-auto" style="line-height: 1.7;">
-            Every one of those reviews is from a real customer in [City], [City 2], [City 3], [City 4], or somewhere across the [Region] — the way our team walks you through the work, the quality of the job, the fact that we treat people like family. That's the kind of home service in [City] that keeps people coming back to Your Business Name.
-          </p>
-        </div>
-
-        <div class="fade-up" style="transition-delay: 0.06s;">
-          <!-- GHL review widget — floated as a white card on the dark section -->
-          <div style="background: #ffffff; border-radius: 16px; padding: 20px 20px 12px; box-shadow: 0 24px 60px -20px rgba(0,0,0,0.55), 0 2px 0 rgba(255,255,255,0.04) inset; max-width: 1040px; margin: 0 auto;">
-            <!-- GHL REVIEW WIDGET EMBED GOES HERE -->
-            <div style="text-align: center; padding: 28px 20px;">
-              <span class="stars text-2xl" style="color: #E63946;">★★★★★</span>
-              <p class="font-display font-700" style="color: var(--ink-body); font-size: 1rem; margin: 12px 0 6px;">Review widget goes here</p>
-              <p class="text-sm" style="color: var(--slate);">Paste the GHL review widget embed to show live customer reviews.</p>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
 
@@ -1130,16 +594,16 @@
     <!-- ============================================================
          CONTACT
     ============================================================ -->
-    <section id="contact" class="section-mid atmo wash-ember-tr py-20" aria-label="Request service or get a free quote">
+    <section id="contact" class="section-mid atmo wash-green-tr py-20" aria-label="Request service or get a free quote">
       <div class="max-w-6xl mx-auto px-5">
 
         <div class="text-center mb-12 fade-up">
           <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
           <h2 class="font-display text-4xl lg:text-5xl font-700 text-white mb-4" style="letter-spacing: -0.03em;">
-            Request Service or<br />Get a Free Quote
+            Request Service or<br />Get a Free Estimate
           </h2>
           <p class="text-slate-light text-lg max-w-xl mx-auto" style="line-height: 1.7;">
-            The fastest way to get started is to call. Our team picks up, answers your questions, and can usually get you on the schedule same day. Prefer to fill out the form? We'll get back to you fast.
+            The fastest way to get started is to call or text. Our team picks up, answers your questions, and can often get you on the schedule the same day — with 24/7 response for storm damage and emergencies. Prefer to send a message? Fill out the form and we'll get right back to you.
           </p>
         </div>
 
@@ -1151,65 +615,49 @@
               <h3 class="font-display font-700 text-white text-xl mb-6">Get in Touch</h3>
 
               <div class="space-y-5">
-                <a href="tel:+15550000000" class="flex items-start gap-4 group">
+                <a href="tel:+19565362384" class="flex items-start gap-4 group">
                   <div class="icon-wrap flex-shrink-0" style="margin-bottom: 0;">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                   </div>
                   <div>
-                    <div class="text-xs font-700 uppercase tracking-widest mb-1" style="color: var(--glass-primary); font-family: 'Barlow', sans-serif;">Call or Text</div>
-                    <div class="font-display font-700 text-white text-lg group-hover:text-glass-300 transition-colors duration-150">(555) 000-0000</div>
+                    <div class="text-xs font-700 uppercase tracking-widest mb-1" style="color: var(--green); font-family: 'Barlow', sans-serif;">Call or Text</div>
+                    <div class="font-display font-700 text-white text-lg group-hover:text-green-300 transition-colors duration-150">956-536-2384</div>
                   </div>
                 </a>
 
-                <a href="mailto:hello@yourbusiness.com" class="flex items-start gap-4 group">
+                <a href="mailto:ECJ@G-UPROOTED.COM" class="flex items-start gap-4 group">
                   <div class="icon-wrap flex-shrink-0" style="margin-bottom: 0;">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                   </div>
                   <div>
-                    <div class="text-xs font-700 uppercase tracking-widest mb-1" style="color: var(--glass-primary); font-family: 'Barlow', sans-serif;">Email Us</div>
-                    <div class="font-display font-700 text-white text-base group-hover:underline">hello@yourbusiness.com</div>
+                    <div class="text-xs font-700 uppercase tracking-widest mb-1" style="color: var(--green); font-family: 'Barlow', sans-serif;">Email Us</div>
+                    <div class="font-display font-700 text-white text-base group-hover:underline">ECJ@G-UPROOTED.COM</div>
                   </div>
                 </a>
-
-                <div class="flex items-start gap-4">
-                  <div class="icon-wrap flex-shrink-0" style="margin-bottom: 0;">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="2.2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                  </div>
-                  <div>
-                    <div class="text-xs font-700 uppercase tracking-widest mb-1" style="color: var(--glass-primary); font-family: 'Barlow', sans-serif;">Visit Us</div>
-                    <div class="font-display font-700 text-white text-base">[Street Address]</div>
-                    <div class="text-slate-light text-sm">[City], TX [ZIP]</div>
-                  </div>
-                </div>
               </div>
 
-              <div class="mt-8 pt-6 border-t" style="border-color: rgba(26,26,46,0.14);">
-                <p class="text-slate-light text-sm" style="line-height: 1.7;">Serving [City], [City 2], [City 3], [City 4], [City 5], [City 6], and surrounding [Region] communities.</p>
+              <div class="mt-8 pt-6 border-t" style="border-color: rgba(26,56,12,0.14);">
+                <p class="text-slate-light text-sm" style="line-height: 1.7;">Serving Harlingen, McAllen, Brownsville, South Padre Island, Edinburg, Mission, and surrounding Rio Grande Valley communities.</p>
               </div>
             </div>
           </div>
 
-          <!-- GHL Form -->
-          <div class="area-card" style="background: rgba(26,26,46,0.04); min-height: 720px; padding: 0; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-            <!-- GHL CONTACT FORM EMBED GOES HERE -->
-            <div style="text-align: center; padding: 48px 32px; color: var(--slate);">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto 16px; opacity: 0.75;"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg>
-              <p class="font-display font-700" style="color: var(--ink-body); font-size: 1rem; margin-bottom: 6px;">Contact form goes here</p>
-              <p class="text-sm" style="color: var(--slate);">Paste the GHL contact form embed to activate this form.</p>
-            </div>
+          <!-- LeadConnector / GoHighLevel contact form. min-height (654px, from data-height)
+               is a fallback so the form renders before form_embed.js auto-resizes it. -->
+          <div class="area-card" style="background: #fff; min-height: 654px; padding: 0; overflow: hidden; display: flex;">
+            <iframe src="https://api.leadconnectorhq.com/widget/form/Avbomy4X5510BwVJqEBq" style="width:100%;height:100%;border:none;border-radius:10px" id="inline-Avbomy4X5510BwVJqEBq" data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow" data-trigger-value="" data-activation-type="alwaysActivated" data-activation-value="" data-deactivation-type="neverDeactivate" data-deactivation-value="" data-form-name="Website Form (Trial)" data-height="654" data-layout-iframe-id="inline-Avbomy4X5510BwVJqEBq" data-form-id="Avbomy4X5510BwVJqEBq" title="Website Form (Trial)"></iframe>
           </div>
 
         </div>
 
-        <!-- Map -->
+        <!-- Map (responsive 16:9 — fills its container, no fixed px) -->
         <div class="fade-up mt-12" style="transition-delay: 0.12s;">
-          <div style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(26,26,46,0.14); box-shadow: 0 24px 60px -24px rgba(20,20,34,0.45); background: rgba(26,26,46,0.04); height: 450px; display: flex; align-items: center; justify-content: center;">
-            <!-- GOOGLE MAPS EMBED GOES HERE -->
-            <div style="text-align: center; padding: 40px; color: var(--slate);">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--glass-primary)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto 16px; opacity: 0.75;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              <p class="font-display font-700" style="color: var(--ink-body); font-size: 1rem; margin-bottom: 6px;">Google Map goes here</p>
-              <p class="text-sm" style="color: var(--slate);">Paste the client's Google Maps embed for their service area.</p>
-            </div>
+          <div style="position: relative; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; border: 1px solid rgba(26,56,12,0.12); background: #1A380C; box-shadow: 0 1px 3px rgba(26,56,12,0.05), 0 10px 28px rgba(26,56,12,0.12), 0 22px 56px rgba(26,56,12,0.10), 0 0 0 1px rgba(26,56,12,0.06);">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d458411.53072100156!2d-98.11202343258961!3d26.15305157258987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47876e457f12901f%3A0x12c1ba58c8ac3382!2sG-Uprooted!5e0!3m2!1sen!2sus!4v1781923614379!5m2!1sen!2sus"
+              style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block;"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="G-Uprooted Tree Services service area map across Harlingen and the Rio Grande Valley"></iframe>
           </div>
         </div>
       </div>
@@ -1220,16 +668,16 @@
     <!-- ============================================================
          SERVICE AREA
     ============================================================ -->
-    <section id="service-area" class="section-dark atmo wash-navy-bl py-20" aria-label="Serving [City] and the [Region]">
+    <section id="service-area" class="section-dark atmo wash-deep-bl py-20" aria-label="Serving Harlingen and the Rio Grande Valley">
       <div class="max-w-6xl mx-auto px-5">
 
         <div class="text-center mb-12 fade-up">
           <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
           <h2 class="font-display text-4xl lg:text-5xl font-700 text-white mb-4" style="letter-spacing: -0.03em;">
-            Serving [City] &amp;<br />the [Region]
+            Serving Harlingen &amp;<br />the Rio Grande Valley
           </h2>
           <p class="text-slate-light text-lg max-w-xl mx-auto" style="line-height: 1.7;">
-            Your Business Name is based in [City] — right in the heart of the [Region]. From here, our team dispatches mobile service to six cities across the [Region]. Whether you're in [City], [City 2], [City 3], [City 4], [City 5], or [City 6], Your Business Name can get to wherever you need us.
+            G-Uprooted Tree Services is based in Harlingen, right in the heart of the Rio Grande Valley. From here, our crew covers six cities and the towns in between. Whether you're in Harlingen, McAllen, Brownsville, South Padre Island, Edinburg, or Mission, we can get to you.
           </p>
         </div>
 
@@ -1240,57 +688,57 @@
               <div class="area-dot mt-1"></div>
               <div>
                 <div class="flex items-center gap-2 mb-1">
-                  <a href="/areas/city-one.html" class="text-sm font-semibold hover:underline" style="color: var(--ink-body);">[City]</a>
-                  <span class="text-xs px-2 py-0.5 rounded-full font-semibold" style="background: rgba(26,26,46,0.10); color: var(--glass-primary);">Primary</span>
+                  <a href="/areas/harlingen.html" class="text-sm font-semibold hover:underline" style="color: var(--ink-body);">Harlingen</a>
+                  <span class="text-xs px-2 py-0.5 rounded-full font-semibold" style="background: rgba(26,56,12,0.10); color: var(--green);">Primary</span>
                 </div>
-                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Based in [City]. Same-day service throughout [City] including the [Neighborhood] and [Neighborhood] areas.</p>
+                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Our home base. Fast, same-day tree and palm service throughout Harlingen, from Treasure Hills to the airport district.</p>
               </div>
             </div>
 
             <div class="flex items-start gap-3">
               <div class="area-dot mt-1"></div>
               <div>
-                <a href="/areas/city-two.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">[City 2]</a>
-                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Mobile service to [City 2] homes and businesses — including the [Neighborhood] area.</p>
+                <a href="/areas/mcallen.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">McAllen</a>
+                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Tree trimming, removals, and palm care for McAllen homes and businesses, from North McAllen to the busy 10th Street corridor.</p>
               </div>
             </div>
 
             <div class="flex items-start gap-3">
               <div class="area-dot mt-1"></div>
               <div>
-                <a href="/areas/city-three.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">[City 3]</a>
-                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Serving [City 3] along the [Highway] corridor — quick dispatch from [City], usually same morning.</p>
+                <a href="/areas/brownsville.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">Brownsville</a>
+                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Serving Brownsville down to the coast, with quick dispatch along the 77/83 expressway — usually the same morning you call.</p>
               </div>
             </div>
 
             <div class="flex items-start gap-3">
               <div class="area-dot mt-1"></div>
               <div>
-                <a href="/areas/city-four.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">[City 4]</a>
-                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">[City 4] and [City 5] are right next door — our team covers both in a single run when schedules align.</p>
+                <a href="/areas/south-padre-island.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">South Padre Island</a>
+                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Salt air and storms are hard on island palms. We handle trimming, cleanup, and hurricane-season prep across South Padre Island.</p>
               </div>
             </div>
 
             <div class="flex items-start gap-3">
               <div class="area-dot mt-1"></div>
               <div>
-                <a href="/areas/city-five.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">[City 5]</a>
-                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Mobile service in [City 5] — call ahead to confirm same-day availability.</p>
+                <a href="/areas/edinburg.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">Edinburg</a>
+                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Reliable tree and palm care for Edinburg neighborhoods and UTRGV-area properties — call ahead to lock in same-day timing.</p>
               </div>
             </div>
 
             <div class="flex items-start gap-3">
               <div class="area-dot mt-1"></div>
               <div>
-                <a href="/areas/city-six.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">[City 6]</a>
-                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Same mobile service available to [City 6] residents as everywhere else across the [Region].</p>
+                <a href="/areas/mission.html" class="text-sm font-semibold hover:underline block mb-1" style="color: var(--ink-body);">Mission</a>
+                <p class="text-xs" style="color: var(--slate); line-height: 1.6;">Mission is known for its palms, and we keep them healthy — full tree and palm care for homes, businesses, and groves.</p>
               </div>
             </div>
 
           </div>
-          <p class="text-sm mt-6 pt-5 border-t" style="border-color: rgba(26,26,46,0.12); color: var(--slate);">
+          <p class="text-sm mt-6 pt-5 border-t" style="border-color: rgba(26,56,12,0.12); color: var(--slate);">
             Not sure if we cover your area?
-            <a href="tel:+15550000000" class="font-semibold hover:underline" style="color: var(--glass-primary);">Call us — (555) 000-0000</a>. If you're in the [Region], we most likely do.
+            <a href="tel:+19565362384" class="font-semibold hover:underline" style="color: var(--green);">Call us — 956-536-2384</a>. If you're in the Rio Grande Valley, we most likely do.
           </p>
         </div>
 
@@ -1304,51 +752,54 @@
     ============================================================ -->
     <section class="dark-section relative py-24 overflow-hidden" aria-label="Final call to action">
       <div class="absolute inset-0" style="background: url('/brand_assets/cta-background.jpg') center center / cover no-repeat;"></div>
-      <div class="absolute inset-0" style="background: rgba(20,20,34,0.62);"></div>
+      <!-- Color treatment layer (deep-green tint, multiply) -->
+      <div class="absolute inset-0" style="mix-blend-mode: multiply; background: linear-gradient(135deg, rgba(26,56,12,0.58) 0%, rgba(15,30,8,0.42) 60%, rgba(26,56,12,0.52) 100%);"></div>
+      <div class="absolute inset-0" style="background: rgba(20,40,14,0.62);"></div>
       <div class="dark-cta-ramp"></div>
-      <div class="absolute inset-0" style="background: radial-gradient(ellipse 70% 80% at 50% 40%, rgba(26,26,46,0.44) 0%, transparent 65%);"></div>
-      <div class="absolute inset-0" style="background: radial-gradient(ellipse 50% 45% at 0% 100%, rgba(90,30,40,0.16) 0%, transparent 55%);"></div>
-      <div class="absolute inset-0" style="background: radial-gradient(ellipse 50% 45% at 100% 100%, rgba(90,30,40,0.12) 0%, transparent 55%);"></div>
-      <div class="absolute inset-0" style="background: radial-gradient(ellipse 45% 35% at 50% 78%, rgba(230,57,70,0.12) 0%, transparent 55%);"></div>
+      <div class="absolute inset-0" style="background: radial-gradient(ellipse 70% 80% at 50% 40%, rgba(26,56,12,0.44) 0%, transparent 65%);"></div>
+      <!-- Emergency-red ambient glow (reserved for the 24/7 urgency message) -->
+      <div class="absolute inset-0" style="background: radial-gradient(ellipse 50% 45% at 0% 100%, rgba(120,18,28,0.20) 0%, transparent 55%);"></div>
+      <div class="absolute inset-0" style="background: radial-gradient(ellipse 50% 45% at 100% 100%, rgba(120,18,28,0.16) 0%, transparent 55%);"></div>
+      <div class="absolute inset-0" style="background: radial-gradient(ellipse 45% 35% at 50% 82%, rgba(189,26,39,0.16) 0%, transparent 55%);"></div>
       <div class="absolute inset-0" style="background: radial-gradient(ellipse 120% 110% at 50% 50%, transparent 35%, rgba(0,0,0,0.36) 100%); pointer-events: none;"></div>
 
       <div class="relative z-10 max-w-3xl mx-auto px-5 text-center fade-up">
         <div class="flex justify-center mb-3"><div class="section-title-accent"></div></div>
         <h2 class="font-display text-4xl lg:text-5xl font-800 text-white mb-5" style="letter-spacing: -0.03em; line-height: 1.1;">
-          Ready When<br />You Are.<br /><span style="color: var(--ember);">Get It Done Today.</span>
+          Tree Down?<br />Don't Wait.<br /><span style="color: var(--emergency);">We're Here 24/7.</span>
         </h2>
         <p class="text-slate-light text-lg mb-10 max-w-xl mx-auto" style="line-height: 1.7;">
-          Don't put it off any longer. Call Your Business Name — we offer same-day service across [City] and the [Region], we come to you, and every job is backed by our satisfaction guarantee.
+          Storm damage, a dangerous limb, or just an overgrown palm — G-Uprooted Tree Services is ready. We answer 24/7, serve all of Harlingen and the Rio Grande Valley, and every estimate is free.
         </p>
         <div class="flex flex-wrap gap-4 justify-center">
-          <a href="tel:+15550000000" class="btn-primary text-base px-8 py-4">
+          <a href="tel:+19565362384" class="btn-primary text-base px-8 py-4">
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            Call Now — (555) 000-0000
+            Call Now — 956-536-2384
           </a>
           <a href="#contact" class="btn-outline text-base px-8 py-4">
-            Get a Free Quote
+            Get a Free Estimate
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
           </a>
         </div>
         <div class="flex flex-wrap items-center justify-center gap-5 mt-10">
           <span class="flex items-center gap-1.5 text-slate-light text-sm">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--green-leaf)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
             Free estimates
           </span>
           <span style="color: rgba(255,255,255,0.20);">·</span>
           <span class="flex items-center gap-1.5 text-slate-light text-sm">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Fair, honest pricing
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--green-leaf)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            24/7 emergency service
           </span>
           <span style="color: rgba(255,255,255,0.20);">·</span>
           <span class="flex items-center gap-1.5 text-slate-light text-sm">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Mobile service
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--green-leaf)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Residential &amp; commercial
           </span>
           <span style="color: rgba(255,255,255,0.20);">·</span>
           <span class="flex items-center gap-1.5 text-slate-light text-sm">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-            Same-day availability
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--green-leaf)" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            10+ years experience
           </span>
         </div>
       </div>
@@ -1359,26 +810,26 @@
   <!-- ============================================================
        FOOTER
   ============================================================ -->
-  <footer class="dark-section pt-16 pb-8 border-t" style="border-color: rgba(255,255,255,0.08);" aria-label="Footer">
+  <footer class="dark-section atmo pt-16 pb-8 border-t" style="border-color: rgba(255,255,255,0.08);" aria-label="Footer">
     <div class="max-w-6xl mx-auto px-5">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
 
         <!-- Brand -->
         <div class="col-span-2 md:col-span-1">
           <!-- LOGO PLACEHOLDER — replace <span> with <img> when client logo is ready -->
-          <a href="/" class="flex items-center mb-2" aria-label="Your Business Name home">
-            <span class="footer-wordmark">Your Business Name</span>
+          <a href="/" class="flex items-center mb-2" aria-label="G-Uprooted Tree Services home">
+            <img src="/brand_assets/logo.png" alt="G-Uprooted Tree Services" class="footer-logo" style="height:116px;width:auto;display:block;" />
           </a>
-          <p style="font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--ember); margin-bottom: 14px; opacity: 0.85;">Trusted Local Home Services</p>
-          <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Professional home services you can count on — serving [City] and the surrounding [Region].</p>
+          <p style="font-family: 'Barlow', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.13em; text-transform: uppercase; color: var(--green-bright); margin-bottom: 14px; opacity: 0.9;">Tree &amp; Palm Tree Specialists</p>
+          <p class="text-slate-light text-sm mb-5" style="line-height: 1.7;">Tree and palm tree trimming, removal, and 24/7 emergency service — serving Harlingen and the surrounding Rio Grande Valley.</p>
           <div class="space-y-2">
-            <a href="tel:+15550000000" class="flex items-center gap-2 text-white text-sm font-medium hover:opacity-80 transition-opacity duration-150">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              (555) 000-0000
+            <a href="tel:+19565362384" class="flex items-center gap-2 text-white text-sm font-medium hover:opacity-80 transition-opacity duration-150">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--green-leaf)" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.54 6.54l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              956-536-2384
             </a>
-            <a href="mailto:hello@yourbusiness.com" class="flex items-center gap-2 text-slate-light text-sm hover:text-white transition-colors duration-150">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--glass-light)" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              hello@yourbusiness.com
+            <a href="mailto:ECJ@G-UPROOTED.COM" class="flex items-center gap-2 text-slate-light text-sm hover:text-white transition-colors duration-150">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--green-leaf)" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              ECJ@G-UPROOTED.COM
             </a>
           </div>
         </div>
@@ -1387,12 +838,12 @@
         <div>
           <h2 class="font-display font-700 text-white text-sm uppercase tracking-widest mb-4">Services</h2>
           <ul class="space-y-2.5">
-            <li><a href="/services/service-one.html"        class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service One</a></li>
-            <li><a href="/services/service-two.html"  class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Two</a></li>
-            <li><a href="/services/service-three.html"         class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Three</a></li>
-            <li><a href="/services/service-four.html"     class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Four</a></li>
-            <li><a href="/services/service-five.html"            class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Five</a></li>
-            <li><a href="/services/service-six.html"   class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Six</a></li>
+            <li><a href="/services/tree-removal.html"        class="text-slate-light text-sm hover:text-white transition-colors duration-150">Tree Removal</a></li>
+            <li><a href="/services/tree-trimming-pruning.html"  class="text-slate-light text-sm hover:text-white transition-colors duration-150">Tree Trimming &amp; Pruning</a></li>
+            <li><a href="/services/palm-tree-service.html"         class="text-slate-light text-sm hover:text-white transition-colors duration-150">Palm Tree Trimming &amp; Removal</a></li>
+            <li><a href="/services/stump-removal.html"     class="text-slate-light text-sm hover:text-white transition-colors duration-150">Tree Stump Removal &amp; Grinding</a></li>
+            <li><a href="/services/storm-damage-emergency.html"            class="text-slate-light text-sm hover:text-white transition-colors duration-150">Storm Damage &amp; Emergency Service</a></li>
+            <li><a href="/services/commercial-tree-service.html"   class="text-slate-light text-sm hover:text-white transition-colors duration-150">Commercial Tree Service</a></li>
           </ul>
         </div>
 
@@ -1401,8 +852,6 @@
           <h2 class="font-display font-700 text-white text-sm uppercase tracking-widest mb-4">Company</h2>
           <ul class="space-y-2.5">
             <li><a href="#why-us"       class="text-slate-light text-sm hover:text-white transition-colors duration-150">About Us</a></li>
-            <li><a href="#reviews"      class="text-slate-light text-sm hover:text-white transition-colors duration-150">Reviews</a></li>
-            <li><a href="#insurance"    class="text-slate-light text-sm hover:text-white transition-colors duration-150">Insurance Partners</a></li>
             <li><a href="#service-area" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Service Areas</a></li>
             <li><a href="#contact"      class="text-slate-light text-sm hover:text-white transition-colors duration-150">Contact</a></li>
             <li><a href="#"             class="text-slate-light text-sm hover:text-white transition-colors duration-150">Privacy Policy</a></li>
@@ -1413,12 +862,12 @@
         <div>
           <h2 class="font-display font-700 text-white text-sm uppercase tracking-widest mb-4">Areas We Serve</h2>
           <ul class="space-y-2.5">
-            <li><a href="/areas/city-one.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City]</a></li>
-            <li><a href="/areas/city-two.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 2]</a></li>
-            <li><a href="/areas/city-three.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 3]</a></li>
-            <li><a href="/areas/city-four.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 4]</a></li>
-            <li><a href="/areas/city-five.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 5]</a></li>
-            <li><a href="/areas/city-six.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">[City 6]</a></li>
+            <li><a href="/areas/harlingen.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Harlingen</a></li>
+            <li><a href="/areas/mcallen.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">McAllen</a></li>
+            <li><a href="/areas/brownsville.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Brownsville</a></li>
+            <li><a href="/areas/south-padre-island.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">South Padre Island</a></li>
+            <li><a href="/areas/edinburg.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Edinburg</a></li>
+            <li><a href="/areas/mission.html" class="text-slate-light text-sm hover:text-white transition-colors duration-150">Mission</a></li>
           </ul>
         </div>
 
@@ -1428,7 +877,7 @@
 
       <div class="flex flex-col sm:flex-row items-center justify-between gap-3">
         <p class="text-slate-light text-xs text-center sm:text-left">
-          © 2026 Your Business Name. All rights reserved. Serving [City] &amp; the [Region], TX.
+          © 2026 G-Uprooted Tree Services. All rights reserved. Serving Harlingen &amp; the Rio Grande Valley, TX.
         </p>
         <div class="flex items-center gap-4">
           <a href="#" class="text-xs text-slate-light hover:text-white transition-colors duration-150">Privacy Policy</a>
@@ -1480,7 +929,8 @@
 
   <!-- GHL EXTERNAL TRACKING SCRIPT GOES HERE -->
 
-  <!-- GHL FORM EMBED SCRIPT GOES HERE -->
+  <!-- LeadConnector form auto-resize (reads the form iframe's data-* attributes) -->
+  <script src="https://link.msgsndr.com/js/form_embed.js"></script>
 
 </body>
 </html>
