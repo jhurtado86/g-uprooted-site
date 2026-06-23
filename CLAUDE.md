@@ -168,6 +168,53 @@ Official tagline not yet confirmed
 
 Local SEO Requirements
 Every page must follow these SEO standards. Local SEO is the primary lead driver.
+
+## Canonical Host Rule — READ FIRST (prevents Google indexing failures)
+
+This rule exists because a mismatch between the host declared in code and the host
+Vercel actually serves causes Google to reject pages with "Page with redirect" or
+"Discovered – currently not indexed" — sometimes for weeks. It is silent: the site
+looks fine to visitors but pages never index. Follow this rule and it never happens.
+
+### The canonical host for THIS project is:
+**https://www.g-uprootedrgv.com**
+(Confirmed via Vercel: www.g-uprootedrgv.com is Production primary; 
+g-uprootedrgv.com (non-www) is a 308 Permanent Redirect to www. Do not change 
+this Vercel configuration.)
+
+### Every ABSOLUTE URL in the codebase MUST use this exact host:
+- `<link rel="canonical">` tags
+- `og:url`, `og:image`, `twitter:image`, and any twitter URL meta
+- ALL JSON-LD fields: `url`, `@id`, and every `BreadcrumbList` `item` URL
+- `sitemap.xml` — every `<loc>` entry
+- `robots.txt` — the `Sitemap:` line
+Use the host consistently, including trailing-slash style (pick `/` or no-`/` and
+keep it uniform across all schema `url` fields).
+
+### Internal links MUST be root-relative — NEVER absolute:
+- Correct:   `<a href="/services/example.html">`
+- WRONG:     `<a href="https://www.g-uprootedrgv.com/services/example.html">`
+Root-relative internal links inherit the visitor's current host, so they can NEVER
+create a host conflict. This single rule prevents the most common cause of the bug.
+(Asset paths in subdirectories also stay root-relative with a leading slash, e.g.
+`/brand_assets/image.jpg` — relative paths break from inside /services/ and /areas/.)
+
+### Pre-launch verification (run before every go-live):
+Audit all absolute URLs in the project. Report any host that does not match the
+canonical host above — check canonical tags, og/twitter meta, JSON-LD
+url/@id/BreadcrumbList, sitemap.xml, and robots.txt. Also confirm every internal
+nav/footer link is root-relative, not absolute. Report mismatches; do not auto-fix
+until confirmed.
+
+### Post-launch GSC check (catches conflict on day one, not week three):
+1. Submit the sitemap (correct host: www.g-uprootedrgv.com).
+2. URL-inspect the homepage: does "User-declared canonical" EXACTLY match
+   "Google-selected canonical"? If they differ → host conflict → fix before
+   requesting indexing.
+3. Request indexing on priority pages using the www versions.
+4. "Page with redirect" entries for the non-www versions are CORRECT and
+   expected — do not try to "fix" or re-request those.
+
 Per-Page Metadata
 
 Unique <title> tag, under 60 characters, format: "[Page Topic] | G-Uprooted Tree Services"
